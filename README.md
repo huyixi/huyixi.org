@@ -1,2 +1,1 @@
 # huyixi.org
-huyixi.org
