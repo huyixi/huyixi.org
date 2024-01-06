@@ -1,5 +1,6 @@
 baseURL = 'https://huyixi.org/'
-languageCode = 'zh-cn'
+languageCode = "zh-CN"
+languageName = "简体中文"
 title = 'huyixi'
 theme = 'white'
 
