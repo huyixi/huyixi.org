@@ -1,9 +1,15 @@
 {{ define "main" }}
+<article prose>
+
+<h1 text-3xl font-extrabold>{{.Title}}</h1>
 
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+  <time datetime="{{ $dateMachine }}" inline-block z-10 mr-2 inline-flex h-7 items-center bg-zinc-100 rounded-lg px-2 text-sm >{{ $dateHuman }}</time>
 
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</article>
+
 {{ end }}
