@@ -32,11 +32,14 @@
       "animate-slideLeftReturn",
       "c-rose600",
       "fw100",
+      "header-anchor",
+      "prose",
       "text-5xl",
       "text-blue"
     ],
     "ids": [
-      "introduction"
+      "introduction",
+      "我的个人维基🌿"
     ]
   }
 }

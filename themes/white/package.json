@@ -12,9 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "@unocss/cli": "^0.58.2",
+    "@unocss/preset-attributify": "^0.58.3",
     "@unocss/preset-typography": "^0.58.3",
     "@unocss/preset-uno": "^0.58.3",
-    "@unocss/preset-web-fonts": "^0.58.3",
     "@unocss/preset-wind": "^0.58.3"
   }
 }

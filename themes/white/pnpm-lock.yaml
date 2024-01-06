@@ -8,13 +8,13 @@ devDependencies:
   '@unocss/cli':
     specifier: ^0.58.2
     version: 0.58.2
+  '@unocss/preset-attributify':
+    specifier: ^0.58.3
+    version: 0.58.3
   '@unocss/preset-typography':
     specifier: ^0.58.3
     version: 0.58.3
   '@unocss/preset-uno':
-    specifier: ^0.58.3
-    version: 0.58.3
-  '@unocss/preset-web-fonts':
     specifier: ^0.58.3
     version: 0.58.3
   '@unocss/preset-wind':
@@ -154,6 +154,12 @@ packages:
       '@unocss/core': 0.58.3
     dev: true
 
+  /@unocss/preset-attributify@0.58.3:
+    resolution: {integrity: sha512-iDXNfnSC0SI51UnMltHmMcPr2SYYkimo86i+SBQqc/WBGcCF7fFqFj8G2WsZfwHvU9SdAHF8tYIwNq06w1WSeg==}
+    dependencies:
+      '@unocss/core': 0.58.3
+    dev: true
+
   /@unocss/preset-mini@0.58.2:
     resolution: {integrity: sha512-RhKRKKMCVMoceG8kcgoVm66GeCICM8mAStGSVnc6YUd2rwVVuJ3U8BD+szq6UnB6sISn9acfdCANUup91F5lEw==}
     dependencies:
@@ -193,13 +199,6 @@ packages:
       '@unocss/preset-mini': 0.58.3
       '@unocss/preset-wind': 0.58.3
       '@unocss/rule-utils': 0.58.3
-    dev: true
-
-  /@unocss/preset-web-fonts@0.58.3:
-    resolution: {integrity: sha512-g+ru8gX74uZVSfKgdSGp46XQ+wMr66Hp3wtI01yyu9wqmJRAVWQmeehFYZ0hDnGgX20veYSbG+ybZfxIKeTy6w==}
-    dependencies:
-      '@unocss/core': 0.58.3
-      ofetch: 1.3.3
     dev: true
 
   /@unocss/preset-wind@0.58.2:
@@ -291,10 +290,6 @@ packages:
 
   /defu@6.1.3:
     resolution: {integrity: sha512-Vy2wmG3NTkmHNg/kzpuvHhkqeIx3ODWqasgCRbKtbXEN0G+HpEEv9BtJLp7ZG1CZloFaC41Ah3ZFbq7aqCqMeQ==}
-    dev: true
-
-  /destr@2.0.2:
-    resolution: {integrity: sha512-65AlobnZMiCET00KaFFjUefxDX0khFA/E4myqZ7a6Sq1yZtR8+FVIvilVX66vF2uobSumxooYZChiRPCKNqhmg==}
     dev: true
 
   /estree-walker@2.0.2:
@@ -402,21 +397,9 @@ packages:
       ufo: 1.3.2
     dev: true
 
-  /node-fetch-native@1.6.1:
-    resolution: {integrity: sha512-bW9T/uJDPAJB2YNYEpWzE54U5O3MQidXsOyTfnbKYtTtFexRvGzb1waphBN4ZwP6EcIvYYEOwW0b72BpAqydTw==}
-    dev: true
-
   /normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /ofetch@1.3.3:
-    resolution: {integrity: sha512-s1ZCMmQWXy4b5K/TW9i/DtiN8Ku+xCiHcjQ6/J/nDdssirrQNOoB165Zu8EqLMA2lln1JUth9a0aW9Ap2ctrUg==}
-    dependencies:
-      destr: 2.0.2
-      node-fetch-native: 1.6.1
-      ufo: 1.3.2
     dev: true
 
   /pathe@1.1.1:
