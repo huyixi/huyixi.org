@@ -1,4 +1,10 @@
-<h1>me</h1>
+{{ $avatar := resources.Get "images/avatar.jpg" }}
+{{ with $avatar }}
+<h1> 
+  <img src="{{ $avatar.RelPermalink }}" alt="avatar" w12 h12 rd-2>
+</h1>
+{{ end }}
+
 <ul>
   {{ range .Site.Menus.main }}
   <li>

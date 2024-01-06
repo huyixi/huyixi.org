@@ -8,12 +8,17 @@
 .my-10,
 [my-10=""]{margin-top:2.5rem;margin-bottom:2.5rem;}
 .block{display:block;}
+.h12,
+[h12=""]{height:3rem;}
+.w12,
+[w12=""]{width:3rem;}
 @keyframes bounce{0%, 100% {transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)} 50% {transform:translateY(0);animation-timing-function:cubic-bezier(0,0,0.2,1)}}
 .animate-bounce{animation:bounce 1s linear infinite;}
 .animate-duration-1s,
 [animate-duration-1s=""]{animation-duration:1s;}
 .animate-count-infinite,
 [animate-count-infinite=""]{animation-iteration-count:infinite;}
+[rd-2=""]{border-radius:0.5rem;}
 [bg~="black"]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
 .text-5xl,
 [text-5xl=""]{font-size:3rem;line-height:1;}

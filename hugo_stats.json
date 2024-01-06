@@ -9,7 +9,6 @@
       "h1",
       "h2",
       "head",
-      "header",
       "html",
       "img",
       "li",
@@ -25,21 +24,17 @@
       "ul"
     ],
     "classes": [
-      "active",
       "animate-bounce",
       "animate-count-infinite",
       "animate-duration-1s",
       "animate-slideLeftReturn",
       "c-rose600",
       "fw100",
-      "header-anchor",
-      "prose",
       "text-5xl",
       "text-blue"
     ],
     "ids": [
-      "introduction",
-      "我的个人维基🌿"
+      "introduction"
     ]
   }
 }
