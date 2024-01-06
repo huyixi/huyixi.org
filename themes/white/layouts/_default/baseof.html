@@ -8,11 +8,11 @@
 
   <body m-auto>
     <div p-5 m-auto sm:mt-20 max-w-screen-md>
-      <div sm:flex>
-        <header sm:w-40>
+      <div sm:flex sm:gap-20>
+        <header sm:w-20 sm:ml-10>
           {{ partial "header.html" . }}
         </header>
-        <main sm:grow>
+        <main sm:grow sm:mt--8px>
           {{ block "main" . }}{{ end }}
         </main>
       </div>
