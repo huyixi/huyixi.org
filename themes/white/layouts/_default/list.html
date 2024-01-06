@@ -9,14 +9,18 @@
 {{ define "main" }}
   {{ .Content }}
   {{ $currentYear := "" }}
+  {{ $firstHR := true }}
   {{ range .Pages }}
     {{ $postYear := .Date.Format "2006" }}
     {{ if ne $postYear $currentYear }}
       {{ $currentYear = $postYear }}
       {{ if $currentYear }}
-      <div>
-        <span font-medium text-sm lowercase text-zinc-500 bg-white pr-2>{{ $currentYear }}</span>
-      </div>
+        {{ if $firstHR }}
+          <hr class="hr-solid-content" data-content="{{ $currentYear }}">
+          {{ $firstHR = false }}
+        {{ else }}
+          <hr class="hr-solid-content mt-4" data-content="{{ $currentYear }}">
+        {{ end }}
       {{ end }}
     {{ end }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>

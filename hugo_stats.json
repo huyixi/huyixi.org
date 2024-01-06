@@ -50,6 +50,9 @@
       "after:w-full",
       "ancestor",
       "app",
+      "hr-solid-content",
+      "mb-4",
+      "mt-4",
       "relative",
       "text-zinc-900"
     ],
