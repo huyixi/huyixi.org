@@ -9,6 +9,7 @@
       "h1",
       "h2",
       "head",
+      "header",
       "html",
       "img",
       "li",
@@ -24,14 +25,25 @@
       "ul"
     ],
     "classes": [
+      "active",
+      "ancestor",
       "animate-bounce",
       "animate-count-infinite",
       "animate-duration-1s",
       "animate-slideLeftReturn",
       "c-rose600",
       "fw100",
+      "h-7",
+      "hover:bg-zinc-100",
+      "hover:text-zinc-900",
+      "inline-flex",
+      "items-center",
+      "px-2",
+      "rounded-xl",
       "text-5xl",
-      "text-blue"
+      "text-blue",
+      "text-zinc-400",
+      "text-zinc-900"
     ],
     "ids": [
       "introduction"

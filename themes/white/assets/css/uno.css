@@ -7,23 +7,50 @@
 [mx-40=""]{margin-left:10rem;margin-right:10rem;}
 .my-10,
 [my-10=""]{margin-top:2.5rem;margin-bottom:2.5rem;}
+[mb-10=""]{margin-bottom:2.5rem;}
+[mb-20=""]{margin-bottom:5rem;}
 .block{display:block;}
+[inline-block=""]{display:inline-block;}
+.h-7,
+[h-7=""]{height:1.75rem;}
 .h12,
 [h12=""]{height:3rem;}
 .w12,
 [w12=""]{width:3rem;}
+.flex,
+[flex=""]{display:flex;}
+.inline-flex,
+[inline-flex=""]{display:inline-flex;}
 @keyframes bounce{0%, 100% {transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)} 50% {transform:translateY(0);animation-timing-function:cubic-bezier(0,0,0.2,1)}}
 .animate-bounce{animation:bounce 1s linear infinite;}
 .animate-duration-1s,
 [animate-duration-1s=""]{animation-duration:1s;}
 .animate-count-infinite,
 [animate-count-infinite=""]{animation-iteration-count:infinite;}
+[items-end=""]{align-items:flex-end;}
+.items-center,
+[items-center=""]{align-items:center;}
+.gap-lg,
+[gap-lg=""]{gap:1.125rem;}
+.flex-justify-between,
+[flex-justify-between=""]{justify-content:space-between;}
+.rounded-xl,
+[rounded-xl=""]{border-radius:0.75rem;}
 [rd-2=""]{border-radius:0.5rem;}
 [bg~="black"]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.hover\:bg-zinc-100:hover{--un-bg-opacity:1;background-color:rgb(244 244 245 / var(--un-bg-opacity));}
+[hover\:bg-zinc-100=""]:hover{--un-bg-opacity:1;background-color:rgb(244 244 245 / var(--un-bg-opacity));}
+.px-2,
+[px-2=""]{padding-left:0.5rem;padding-right:0.5rem;}
 .text-5xl,
 [text-5xl=""]{font-size:3rem;line-height:1;}
 .text-blue,
 [text-blue=""]{--un-text-opacity:1;color:rgb(96 165 250 / var(--un-text-opacity));}
+.text-zinc-400,
+[text-zinc-400=""]{--un-text-opacity:1;color:rgb(161 161 170 / var(--un-text-opacity));}
+.text-zinc-900{--un-text-opacity:1;color:rgb(24 24 27 / var(--un-text-opacity));}
+.hover\:text-zinc-900:hover{--un-text-opacity:1;color:rgb(24 24 27 / var(--un-text-opacity));}
+[hover\:text-zinc-900=""]:hover{--un-text-opacity:1;color:rgb(24 24 27 / var(--un-text-opacity));}
 .c-rose600,
 [c-rose600=""]{--un-text-opacity:1;color:rgb(225 29 72 / var(--un-text-opacity));}
 .fw100,

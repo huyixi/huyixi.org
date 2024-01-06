@@ -1,14 +1,18 @@
 {{ $avatar := resources.Get "images/avatar.jpg" }}
+<nav flex mb-10>
+
 {{ with $avatar }}
-<h1> 
+<h1 inline-block> 
   <img src="{{ $avatar.RelPermalink }}" alt="avatar" w12 h12 rd-2>
 </h1>
 {{ end }}
 
-<ul>
+<ul flex>
   {{ range .Site.Menus.main }}
   <li>
     <a href="{{ .URL }}">{{ .Name }}</a>
   </li>
   {{ end }}
 </ul>
+
+</nav>
