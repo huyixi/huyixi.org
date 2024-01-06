@@ -1,4 +1,15 @@
 {{ define "main" }}
+
+<h1  c-rose600>rose 600</h1>
+
+<div  class="text-5xl c-rose600 fw100 animate-bounce-alt animate-count-infinite animate-duration-1s">
+  UnoCSS
+</div>
+
+<div text-5xl fw100 animate-bounce-alt animate-count-infinite animate-duration-1s>
+  UnoCSS
+</div>
+
   {{ .Content }}
   {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>

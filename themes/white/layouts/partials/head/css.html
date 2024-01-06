@@ -1,9 +1,7 @@
-{{- with resources.Get "css/main.css" }}
-  {{- if eq hugo.Environment "development" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{- else }}
-    {{- with . | minify | fingerprint }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-    {{- end }}
-  {{- end }}
-{{- end }}
+{{- $unocss := resources.Match "css/*.css" | resources.Concat "css/main.css" -}}
+
+{{- if hugo.IsProduction }}
+{{ $unocss = $unocss | minify | fingerprint }}
+{{ end -}}
+
+<link rel="stylesheet" href="{{ $unocss.RelPermalink }}" {{ if hugo.IsProduction }} integrity="{{ $unocss.Data.Integrity }}" {{ end }}>

@@ -28,3 +28,5 @@ weight = 40
     extended = false
     min = "0.116.0"
 
+[build]
+writeStats = true

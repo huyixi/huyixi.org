@@ -4,12 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uno-dev": "unocss \"layouts/**/**/*.html\" --watch -o ./assets/css/uno.css",
+    "uno-build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css",
+    "hugo-dev": "hugo server  --disableFastRender",
+    "dev-optimized": "run-p hugo-dev uno-app uno-blog",
+    "dev": "hugo-dev uno-dev",
+    "hugo-build": "hugo --gc --minify",
+    "build": "run-p hugo-build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@unocss/cli": "^0.58.2"
+    "@unocss/cli": "^0.58.2",
+    "@unocss/preset-typography": "^0.58.3",
+    "@unocss/preset-uno": "^0.58.3",
+    "@unocss/preset-web-fonts": "^0.58.3",
+    "@unocss/preset-wind": "^0.58.3"
   }
 }
