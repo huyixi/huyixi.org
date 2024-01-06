@@ -4,14 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "uno-dev": "unocss \"layouts/**/**/*.html\" --watch -o ./assets/css/uno.css",
-    "uno-build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css",
-    "hugo-dev": "hugo server  --disableFastRender",
-    "dev-optimized": "run-p hugo-dev uno-app uno-blog",
-    "dev": "hugo-dev uno-dev",
-    "hugo-build": "hugo --gc --minify",
-    "build": "run-p hugo-build"
+    "uno-build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css"
   },
   "keywords": [],
   "author": "",
