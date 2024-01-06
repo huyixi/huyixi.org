@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "hugo server -D",
     "white-theme-dev": "cd themes/white && pnpm run uno-dev",
-    "start": "concurrently \"pnpm:dev\" \"pnpm:white-theme-dev\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"pnpm:dev\" \"pnpm:white-theme-dev\""
   },
   "keywords": [],
   "author": "",
