@@ -12,7 +12,7 @@ Renders a menu for the given menu ID.
 {{- $avatar := resources.Get "images/avatar.jpg" }}
 
 {{- with index site.Menus $menuID }}
-<nav flex flex-justify-between mb-20 sm:flex-col>
+<nav flex flex-justify-between mb-20 sm:flex-col >
     {{ with $avatar }}
       <h1 inline-block> 
         <a href="/"><img src="{{ $avatar.RelPermalink }}" alt="avatar" ml-2 w12 h12 rd-2></a>

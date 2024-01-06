@@ -5,7 +5,7 @@ theme = 'white'
 
 [[menus.main]]
 name = 'Posts'
-pageRef = '/'
+pageRef = '/posts'
 weight = 10
 
 [[menus.main]]

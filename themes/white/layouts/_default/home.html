@@ -1,22 +1,6 @@
 {{ define "main" }}
-
-<h1  c-rose600>rose 600</h1>
-
-<div  class="text-5xl c-rose600 fw100 animate-bounce animate-count-infinite animate-duration-1s">
-  UnoCSS
-</div>
-
-<div class="fw100 text-5xl text-blue animate-slideLeftReturn animate-count-infinite animate-duration-1s">
-  UnoCSS
-</div>
-
-<div my-10 mx-40 bg="black"  fw100 text-5xl text-blue animate-slideLeftReturn animate-count-infinite animate-duration-1s>
-  UnoCSS
-</div>
-
 {{ .Content }}
   {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
   {{ end }}
 {{ end }}

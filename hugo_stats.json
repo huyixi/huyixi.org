@@ -26,14 +26,6 @@
     ],
     "classes": [
       "ancestor",
-      "animate-bounce",
-      "animate-count-infinite",
-      "animate-duration-1s",
-      "animate-slideLeftReturn",
-      "c-rose600",
-      "fw100",
-      "text-5xl",
-      "text-blue",
       "text-zinc-900"
     ],
     "ids": [
