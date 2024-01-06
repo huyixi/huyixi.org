@@ -4,22 +4,22 @@ title = 'huyixi'
 theme = 'white'
 
 [[menus.main]]
-name = 'posts'
+name = 'Posts'
 pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'weekly'
+name = 'Weekly'
 pageRef = '/weekly'
 weight = 20
 
 [[menus.main]]
-name = 'projects'
+name = 'Projects'
 pageRef = '/projects'
 weight = 30
 
 [[menus.main]]
-name = 'about'
+name = 'About'
 pageRef = '/about'
 weight = 40
 
