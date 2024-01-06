@@ -28,7 +28,7 @@ Renders a menu for the given menu ID.
   {{- $page := .page }}
   {{- range .menuEntries }}
     {{- $attrs := dict "href" .URL }}
-    {{- if $page.IsMenuCurrent .Menu . }}
+    {{- if or ($page.IsMenuCurrent .Menu .)}}
       {{- $attrs = merge $attrs (dict "class" "text-zinc-900" "aria-current" "page") }}
     {{- else if $page.HasMenuCurrent .Menu .}}
       {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
