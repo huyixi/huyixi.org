@@ -3,6 +3,7 @@
 👋 哈喽, 欢迎来到 huyixi.org。  
 这里是我的个人博客。这里主要记录我输出的一些文字。  
 我还有另外两个网站，这是它们的主要区别：[huyixi.com](https://huyixi.com) 是我的个人品牌宣传网站。[huyixi.wiki](https://huyixi.wiki) 是我的个人知识库，我利用这个网站来减轻我大脑的记忆负担。
+你可以在 Posts 中发现我写的文章；如果想看看我最近的动态，可以看看  Weekly；又或者你想看看我都做了哪些有意思的东西，可以看看 Projects。如果你都不感兴趣的话，那我就呜呜呜呜呜了😭。
 
 ## Now
 
@@ -15,4 +16,4 @@
 ## Contact
 
 欢迎与我联系  
-📮 Email: hi@huyixi.com
+📮 Email: [hi@huyixi.com](mailto:hi@huyixi.com)
