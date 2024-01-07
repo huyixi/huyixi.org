@@ -34,7 +34,7 @@ Renders a menu for the given menu ID.
       {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
     {{- end }}
     <li flex items-end>
-      <a  hover:bg-zinc-100 rounded-xl p-2 h-7 items-center hover:text-zinc-900 inline-flex text-zinc-400
+      <a  hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400
         {{- range $k, $v := $attrs }}
           {{- with $v }}
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
