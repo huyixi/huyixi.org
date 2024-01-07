@@ -1,6 +1,5 @@
 ---
-title: 'Weekly-33: 活在现在。不是活在未来，也不是活在过去'
-subtitle: " "
+title: 'Weekly 33：活在现在。不是活在未来，也不是活在过去'
 date: 2023-12-10T08:00:00+08:00
 start_date: 2023-12-10
 end_date: 2023-12-16
@@ -11,7 +10,7 @@ tags: []
 
 ## 日记
 
-#### 使用 GitHub Actions 自动生成周刊
+### 使用 GitHub Actions 自动生成周刊
 
 Sun Dec 10 15:16, 2023
 

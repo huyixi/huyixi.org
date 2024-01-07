@@ -1,5 +1,5 @@
 ---
-title: 周刊#11：去冒险吧，带着勇气
+title: Weekly 11：去冒险吧，带着勇气
 date: 2023-07-02T12:15:00+08:00
 lastmod: 2023-07-02T12:15:00+08:00
 category: [Weekly]

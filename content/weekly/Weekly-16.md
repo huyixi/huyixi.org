@@ -1,5 +1,5 @@
 ---
-title: 周刊#16：
+title: Weekly 16：乐观与悲观
 date: 2023-08-06T22:36:00+08:00
 lastmod: 2023-08-06T22:36:00+08:00
 category: [Weekly]

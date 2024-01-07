@@ -1,5 +1,5 @@
 ---
-title: "周刊24：玩"
+title: "Weekly 24：玩"
 lastmod: 2023-10-19
 subtitle: ""
 date: 2023-10-06T22:28:43+08:00

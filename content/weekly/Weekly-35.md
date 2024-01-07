@@ -1,10 +1,20 @@
+---
+title: "Weekly 35：第一次 CTF"
+subtitle: "CTF, huyixi.wiki, huyixi.org, Backup, 极简博客"
+date: 2023-12-28T23:40:05+08:00
+lastmod: 2023-12-28T23:40:05+08:00
+draft: false
+tags: []
+category: [Weekly]
+---
+
 ## 记录第一次 CTF
 
 ### 第一个 flag
 
 Mon Dec 25 12:37, 2023
 起因是刷 Twitter 的时候看到这样一条推文：
-![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/hwAFKy.jpg)
+![ctf](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/hwAFKy.jpg)
 因为我其实并不了解 CTF，所以刚看到也是很无感的，但是最近关注了一些安全方面的推友，说比较简单，而且挺有意思，于是便收藏起来等后续有空来做（不过我很多收藏的东西就是因为这么想，然后吃灰的）。周一刚好吃完饭比较空闲，就打开来玩一玩。
 首先是使用 Docker 安装，这个很简单，跳过。
 之后进入到服务器，我就一脸懵：

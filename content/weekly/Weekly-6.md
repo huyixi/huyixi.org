@@ -1,5 +1,5 @@
 ---
-title: 周刊（第 6 期）
+title: Weekly 6：水周刊
 date: 2023-05-29T08:00:00+08:00
 lastmod: 2023-05-29T08:00:00+08:00
 category: [Weekly]
@@ -15,7 +15,7 @@ draft: false
 
 ## 工具
 
-### Vite 太快了，烦死了，是时候该小睡一会了。
+### Vite 太快了，烦死了，是时候该小睡一会了
 
 [vite-plugin-sleep](https://github.com/IndexXuan/vite-plugin-sleep)vite is too fast, we need to rest.
 

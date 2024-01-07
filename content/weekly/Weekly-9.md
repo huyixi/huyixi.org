@@ -1,5 +1,5 @@
 ---
-title: 周刊#9：生命短暂，贪得无厌！ - How to Live
+title: Weekly 9：生命短暂，贪得无厌！ - How to Live
 date: 2023-06-20T15:53:00+08:00
 lastmod: 2023-06-20T15:53:00+08:00
 category: [Weekly]
@@ -9,7 +9,8 @@ summary: |
  主题：How to Live，<br>
  时间：20230618 - 20230624
 ---
-# 生命短暂，贪得无厌！
+
+# 生命短暂，贪得无厌!
 
 ## How To Live ？
 

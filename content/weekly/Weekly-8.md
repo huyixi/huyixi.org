@@ -1,5 +1,5 @@
 ---
-title: 周刊#8：（我的自动化生活）
+title: Weekly 8：我的自动化生活
 date: 2023-06-12T22:46:00+08:00
 lastmod: 2023-06-12T22:46:00+08:00
 category: [Weekly]
