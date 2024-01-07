@@ -1,3 +1,7 @@
++++
+layout = "about"
++++
+# About
 ### 👋
 Hi, I’m huyixi.
 
