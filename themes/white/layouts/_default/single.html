@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article prose>
 
-<h1 text-3xl font-extrabold>{{.Title}}</h1>
+<h1 text-3xl font-extrabold mt-0>{{.Title}}</h1>
 
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format ":date_long" }}
