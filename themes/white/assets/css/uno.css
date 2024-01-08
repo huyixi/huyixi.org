@@ -35,6 +35,8 @@
 [flex=""]{display:flex;}
 .inline-flex,
 [inline-flex=""]{display:inline-flex;}
+[cursor-auto=""]{cursor:auto;}
+.items-end,
 [items-end=""]{align-items:flex-end;}
 .items-center,
 [items-center=""]{align-items:center;}

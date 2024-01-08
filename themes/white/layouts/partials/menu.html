@@ -14,11 +14,11 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
 <nav sticky top-5 flex flex-justify-between mb-4 sm:flex-col sm:flex-items-end sm:w-20>
     {{ with $avatar }}
-      <h1 inline-block> 
+      <h1 inline-block cursor-auto> 
         <a href="/"><img src="{{ $avatar.RelPermalink }}" alt="avatar" ml-2 w12 h12 rd-2></a>
       </h1>
     {{ end }}
-    <ul flex  sm:flex-col sm:flex-items-end sm:mt-10>
+    <ul flex sm:flex-col sm:flex-items-end sm:mt-10>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>
 </nav>
@@ -33,8 +33,8 @@ Renders a menu for the given menu ID.
     {{- else if $page.HasMenuCurrent .Menu .}}
       {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
     {{- end }}
-    <li flex items-end>
-      <a  hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400
         {{- range $k, $v := $attrs }}
           {{- with $v }}
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
