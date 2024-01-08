@@ -8,6 +8,9 @@ tags: []
 category: [Article]
 summary: 
 ---
+
+这个网站使用了 hugo 静态网站生成器，CSS 方面使用 UnoCSS。以下记录了如何在 hugo 中使用 UnoCSS。
+
 1. 将主题文件的 CSS 样式引入修改如下：
 
 ```html
