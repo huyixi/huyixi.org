@@ -1,5 +1,5 @@
 ---
-title: The-Use-Of-Windows-Computer
+title: Windows 装机指南
 date: 2023-04-24T02:49:00+08:00
 lastmod: 2023-10-26
 category: [Article]
@@ -7,7 +7,9 @@ tags: [tutor]
 draft: false
 ---
 
->本文内容较长，更推荐在我的 wiki 网站进行阅读，这是本文的[链接。](https://huyixi.wiki/计算机/Windows)。可以通过点击目录进行快速导航跳转。
+>本文内容较长，更推荐在我的 wiki 网站进行阅读，这是本文的[链接](https://huyixi.wiki/计算机/Windows)。可以通过点击目录进行快速导航跳转。
+
+> 前情提要：根据本人的多次装机历史记录而成，基本满足本人 Windows 装机需求。
 
 ## 系统安装
 
