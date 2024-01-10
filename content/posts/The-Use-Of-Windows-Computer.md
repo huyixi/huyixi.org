@@ -7,6 +7,8 @@ tags: [tutor]
 draft: false
 ---
 
+>本文内容较长，更推荐在我的 wiki 网站进行阅读，这是本文的[链接。](https://huyixi.wiki/计算机/Windows)。可以通过点击目录进行快速导航跳转。
+
 ## 系统安装
 
 ### 系统镜像下载网站
