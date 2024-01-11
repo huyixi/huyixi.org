@@ -11,7 +11,7 @@
         <header mb-6>
           {{ partial "header.html" . }}
         </header>
-        <main px-2 sm:grow>
+        <main px-2 overflow-hidden>
           {{ block "main" . }}{{ end }}
         </main>
       </div>
