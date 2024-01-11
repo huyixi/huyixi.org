@@ -23,4 +23,6 @@ layout = "about"
 
 ### Contact me
 
-Email: hi@huyixi.com
+- Email: hi@huyixi.com
+
+- [Github](https://github.com/huyixi)
