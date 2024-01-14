@@ -13,6 +13,7 @@
 👀看看我最近在做什么：  
 💼 正在找工作……    
 💻 正在开发：huyixi.com，我正尝试将这个网站搭建成我的个人品牌宣传网站。  
+🤩最近在追：[坂本 龍一](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto)、[Owen](https://www.owenyoung.com)、[枫影 Justin Yan](https://justinyan.me)  
 📖 最近在读：《邓小平时代》、《我还能看到多少次满月升起》、《音乐即自由》  
 🎵 最近在听：《12》、《相爱》- 脆莓、莉莉周她說 Lily Chou-Chou  
 🔎 正在研究：Astro、uniapp、uview    
