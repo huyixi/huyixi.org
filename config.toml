@@ -8,8 +8,8 @@ pageRef = '/posts'
 weight = 10
 
 [[menus.main]]
-name = 'Weekly'
-pageRef = '/weekly'
+name = 'Journal'
+pageRef = '/journal'
 weight = 20
 
 [[menus.main]]
