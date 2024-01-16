@@ -4,9 +4,9 @@
 这里是我的个人博客。这里主要记录我输出的一些文字。  
 我还有另外两个网站：[huyixi.com](https://huyixi.com) 是我的个人品牌宣传网站。[huyixi.wiki](https://huyixi.wiki) 是我的个人知识库，我利用这个网站来减轻我大脑的记忆负担。  
 
--  [Posts](/posts/) 中收录我的一些文字；
-- [Weekly](weekly) 周记是关于我最近的一些生活；
-- [Projects](projects/) 记录了我做的一些项目；
+- [Posts](/posts) 中收录我的一些文字；
+- [Journal](/journal) 日记本是关于我的一些生活生活碎片；
+- [Projects](/projects) 记录了我做的一些项目；
 
 ## Now
 
