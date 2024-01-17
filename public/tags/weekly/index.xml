@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weekly on huyixi</title>
+    <link>https://huyixi.org/tags/weekly/</link>
+    <description>Recent content in weekly on huyixi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Aug 2023 22:36:00 +0800</lastBuildDate><atom:link href="https://huyixi.org/tags/weekly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekly 16：乐观与悲观</title>
+      <link>https://huyixi.org/journal/weekly-16/</link>
+      <pubDate>Sun, 06 Aug 2023 22:36:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-16/</guid>
+      <description>主题：&lt;!-- raw HTML omitted --&gt;
+时间：20230806 - 20230813</description>
+    </item>
+    
+    <item>
+      <title>Weekly 15：VIM 作者逝世</title>
+      <link>https://huyixi.org/journal/weekly-15/</link>
+      <pubDate>Mon, 31 Jul 2023 22:29:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-15/</guid>
+      <description>主题：VIM 作者逝世&lt;!-- raw HTML omitted --&gt;
+时间：20230729 - 20230804</description>
+    </item>
+    
+    <item>
+      <title>Weekly 14：英语</title>
+      <link>https://huyixi.org/journal/weekly-14/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-14/</guid>
+      <description>主题：英语&lt;!-- raw HTML omitted --&gt;
+时间：20230723 - 20230729</description>
+    </item>
+    
+    <item>
+      <title>Weekly 13：停止在博客上碎碎念！</title>
+      <link>https://huyixi.org/journal/weekly-13/</link>
+      <pubDate>Sun, 16 Jul 2023 03:36:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-13/</guid>
+      <description>主题：&lt;!-- raw HTML omitted --&gt;
+时间：20230716 - 20230723</description>
+    </item>
+    
+    <item>
+      <title>Weekly 12：历史上最热的一天</title>
+      <link>https://huyixi.org/journal/weekly-12/</link>
+      <pubDate>Sat, 08 Jul 2023 03:36:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-12/</guid>
+      <description>主题：高温、《我在北京送快递》、Mac文件的默认打开方式&lt;!-- raw HTML omitted --&gt;
+时间：20230708 - 20230715</description>
+    </item>
+    
+    <item>
+      <title>Weekly 11：去冒险吧，带着勇气</title>
+      <link>https://huyixi.org/journal/weekly-11/</link>
+      <pubDate>Sun, 02 Jul 2023 12:15:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-11/</guid>
+      <description>主题：&lt;!-- raw HTML omitted --&gt;
+时间：20230625 - 20230701</description>
+    </item>
+    
+    <item>
+      <title>Weekly 10：如何活得更久？</title>
+      <link>https://huyixi.org/journal/weekly-10/</link>
+      <pubDate>Sun, 25 Jun 2023 20:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-10/</guid>
+      <description>主题：live longer, git commit, 智齿&lt;!-- raw HTML omitted --&gt;
+时间：20230625 - 20230701</description>
+    </item>
+    
+    <item>
+      <title>Weekly 9：生命短暂，贪得无厌！ - How to Live</title>
+      <link>https://huyixi.org/journal/weekly-9/</link>
+      <pubDate>Tue, 20 Jun 2023 15:53:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-9/</guid>
+      <description>主题：How to Live，&lt;!-- raw HTML omitted --&gt;
+时间：20230618 - 20230624</description>
+    </item>
+    
+    <item>
+      <title>Weekly 8：我的自动化生活</title>
+      <link>https://huyixi.org/journal/weekly-8/</link>
+      <pubDate>Mon, 12 Jun 2023 22:46:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-8/</guid>
+      <description>主题：自动化生活，上网&lt;!-- raw HTML omitted --&gt;
+时间：20230611 - 20230617</description>
+    </item>
+    
+    <item>
+      <title>Weekly 7：周刊记录内容的改进</title>
+      <link>https://huyixi.org/journal/weekly-7/</link>
+      <pubDate>Wed, 07 Jun 2023 01:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-7/</guid>
+      <description>主题：周刊的记录内容，毕业，RSI &lt;!-- raw HTML omitted --&gt;
+时间：20230603 - 20230610</description>
+    </item>
+    
+    <item>
+      <title>Weekly 6：水周刊</title>
+      <link>https://huyixi.org/journal/weekly-6/</link>
+      <pubDate>Mon, 29 May 2023 08:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-6/</guid>
+      <description>本期：20230527 - 20230602
+文章 DeepL Api 设计中的欺骗战术
+工具 Vite 太快了，烦死了，是时候该小睡一会了 vite-plugin-sleepvite is too fast, we need to rest.
+Vite 构建速度太快,减少了打工人的摸鱼时间,作者写了这个插件增加 Vite 的加载时间.
+资源 1.Hello 算法 适合新手入门「数据结构与算法」的开源书《Hello 算法》，通过动画图解结构化地讲解数据结构和算法知识。代码上支持 Java,C++, Python, Go, JS, TS, C#, Swift
+2.Git 学习资源 [Git 图表速查命令](Git 图表 https://ndpsoftware.com/git-cheatsheet.html#loc=index;)
+ProGit Git 官方推荐书籍
+猴子都能懂的 Git 入门
+Git Magic
+人物 1.DeeKay 一位来自韩国的数字艺术家.他的个人网站上面有许多很有意思的动画.这是他的推特上面会经常更新一些他的工作内容.</description>
+    </item>
+    
+    <item>
+      <title>Weekly 5：英语</title>
+      <link>https://huyixi.org/journal/weekly-5/</link>
+      <pubDate>Sat, 20 May 2023 08:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-5/</guid>
+      <description>本期：20230519 - 20230525
+动态 1. Kindle 使用指南与文档爬虫 本周，我主要在制作一个关于 Kindle 使用指南的教程。在此过程中，我开发了一个网页爬虫来抓取一些只在网页上提供在线浏览版本而未提供电子书选项的网络文档。这个爬虫有助于我将这些文档转换为可以在 Kindle 上使用的格式，便于阅读。在过去的一周里，我一直在优化这个爬虫。如果你对此也有需求，欢迎点击此链接查看。
+2. VS Code 的 Copilot 本周，我收到了 VS Code 的 Copilot，进行了一番试用。此助手集成在编辑器内，使用起来非常方便。然而，由于其模型仅为 3.5 版本，所以并未提供 GPT-4 那样强大的功能。此外，Copilot 并不能直接读取你文件夹中的代码，你需要将代码输入到聊天框中。希望未来它能加入直接读取文件夹中代码的功能。
+文章 1.如何用英语思考 How to THINK in English | No More Translating in Your Head!
+这篇文章介绍了如何逐渐摆脱将英语翻译成母语的思维方式，转向直接用英文思考。以下是作者推荐的练习方法：
+Step 1: 在你的头脑中用英语命名周围的物体。 Step 2: 用简单的句子进行思考。 Step 3: 用英语和自己进行小对话。 Step 4: 将你日常生活中的某一事物改为英文。 Step 5: 记录下来，确保你每天都在进行练习。 Step 6: 用英文回顾你的一天。 2.奥格登的基础英语 - 英语交流只需要 850 个单词 OGDEN&amp;rsquo;s BASIC ENGLISH
+作者发现牛津英语词典里面的 25000 个单词的书，只要用 850 个单词就可以表单，通过这种方式让英语的入门变得更加简单。</description>
+    </item>
+    
+    <item>
+      <title>Weekly 4：陈皓逝世</title>
+      <link>https://huyixi.org/journal/weekly-4/</link>
+      <pubDate>Sat, 13 May 2023 08:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-4/</guid>
+      <description>日期：20230513 - 20230518
+这是我的周刊，每周五早上发布。我在这里记录过去一周所体验到的新鲜事物。
+陈皓（左耳朵耗子）逝世 “其实真正的送别是没有长亭古道的，没有劝君更尽一杯酒，就是一个平常的一个早晨，而有些人却永远留在昨天” - Miableem
+今天信息流被陈皓先生刷屏了。实际上，我对这位人物并不太熟悉。当我翻看他的资料时，发现他原来是 酷壳 - CoolShell 个人博客的作者。原来我也一直在关注着他的文字，他的《简明 VIM 练级攻略》也给我 Vim 的学习提供了非常大的帮助。我们关注生命质量的同时，我们也应该注意保持身体健康，尽可能延长生命的长度。
+互联网上，很多跟陈皓先生有交集的人们正尝试收集与他有关的回忆。
+**Remembering-Haoel**收录了与陈皓生前的作品与数字遗物等。
+为了方便后人阅读，我将陈皓先生在 CoolShell 博客上的文章保存为电子书格式，并分享在了**CoolShell-eBook**这个仓库中。
+以下是一些关于保持健康的仓库：
+程序员延寿指南：提供了一些关于如何延长程序员寿命的指南和建议。
+HumanSystemOptimization：涵盖了人类身体系统优化的内容。
+动态 OpenAI 发布 iOS 端应用 Introducing the ChatGPT app for iOS
+今天试用了这个 app 一下，续费 Plus 更方便了。使用苹果的平台进行付费比 OpenAI 方便多了。
+Helion 与微软达成聚变能采购协议 Announcing Helion’s fusion power purchase agreement with Microsoft
+微软已同意从 Helion 的第一个聚变发电厂购买电力，该发电厂计划于 2028 年部署。这是否预示着核聚变核聚变技术即将进入商用阶段？地球上的能源短缺问题能否被彻底解决？如果能源问题和生产问题都被解决了，未来的世界将会是什么样的？这太有趣了。
+2023 年 StackOverflow 开发者调查问卷 2023 Stack Overflow Developer Survey
+Stack Overflow 发布了今年的开发者调查问卷，可以去填一填。也可以查看往年的开发者问卷获取一些开发工具的信息。</description>
+    </item>
+    
+    <item>
+      <title>Weekly 3：最好的时代</title>
+      <link>https://huyixi.org/journal/weekly-3/</link>
+      <pubDate>Fri, 12 May 2023 08:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-3/</guid>
+      <description>本期：20230506 - 20230512
+这是我的周刊，每周五早上发布。
+我在这里记录过去一周所体验到的新鲜事物。
+最好的时代 这是最好的时代，这也是最坏的时代。
+AI 极大提高了个人单兵作战的能力。使用 ChatGPT 可以更快获取有效的信息而不是像往常一样浏览器逐个查看页面（当然使用 ChatGPT 所获取的一些信息目前还存在着错误，如果你没有足够的知识技能，可能还无法分辨出其中的错误）。可汗学院发布的 Khanmigo 的所使用的概念也将助力技能的学习更加快捷。
+但与此同时 AI 也剥夺了初级工作者的工作机会。在以往你可能需要聘请一个设计师为您设计一个软件的界面，但是现在，你只要提供一些 Prompt 给 Midjourney，就可以生成你想要的东西，这极大的节约了成本。甚至于你可以使用 AutoGPT 直接帮你生成一个你想要的软件。初级工程师的工作机会将大大减少。
+未来的时代，个人机会可能更大。因为 AI 可以逐步替代团队人力。原本五个人十个人需要干的事，未来可能只需要两三个人。目前的智力/人力密集的商业模式，可能能被算法+资本密集所代替。
+这个时代个人的上限更高了，但是同时人的下限也更低了。善于利用工具帮助自己工作学习，个人成长的加速度将越来越快。
+动态 Claude 宣布上下文窗口从 9K 扩展到 100K tokens，相当于 75,000 个单词。与此同时 GPT-4 的 tokens 只有 32K 。
+链接：https://www.anthropic.com/index/100k-context-windows?continueFlag=b1f3d285ec55b445f56f508334b2d067
+技术团队将《了不起的盖茨比》的全文加载到 Claude-Instant（72K tokens）中，并修改了一行，“Mr. Carraway was “a software engineer that works on machine learning tooling at Anthropic.”。Claude 在 22 秒内就找出了不同之处。
+谷歌人工智能主管的杰夫·迪恩（Jeff Dean）向员工宣布了一项的政策转变：他们只有在实验室工作变成产品后才能分享论文。
+Google shared AI knowledge with the world — until ChatGPT caught up</description>
+    </item>
+    
+    <item>
+      <title>Weekly 2：系统的知识来源于对碎片的整理和思考</title>
+      <link>https://huyixi.org/journal/weekly-2/</link>
+      <pubDate>Fri, 05 May 2023 08:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-2/</guid>
+      <description>系统的知识来源于对碎片的整理和思考。为了更好地输出系统知识，我在这里记录本周的发现和思考，为构建系统知识做准备。
+动态 1. ChatGPT Prompt Engineering for Developers 吴恩达和 OpenAI 合作推出了免费的 Prompt Engineering（提示工程）课程。课程主要内容为指导开发者如何构建 Prompt 并基于 OpenAI API 构建新的、基于 LLM 的应用。
+《面向开发者的 ChatGPT 提示词工程》非官方版中英双语字幕
+开源笔记分享： AlexZ的课程内容的思维导图
+Eric Kung 的笔记
+课程内容文字版
+向阳乔木的分享
+2.The amazing AI super tutor for students and teachers 可汗学院创始人可汗在 Ted 上的演讲，他分享了可汗学院使用 GPT-4 辅助学生学习的故事
+3.WORLDCOIN 文章 1.The Age of AI has begun - By Bill Gates 2.Prompt engineering OpenAI 官方的关于提示词工程的一些教程
+3.Prompt engineering techniques 微软官方出品的 ChatGPT 提示词技术教程
+4.游戏主机架构 - Rodrigo Copetti 的实用分析 一个研究主机架构的网站</description>
+    </item>
+    
+    <item>
+      <title>Weekly 1：启动启动启动</title>
+      <link>https://huyixi.org/journal/weekly-1/</link>
+      <pubDate>Mon, 24 Apr 2023 02:49:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/journal/weekly-1/</guid>
+      <description>动态 使用微信扫描上面这张二维码之后，微信APP就会闪退，并报告“三方应用异常分析”。
+根据 Github 用户 **Konano **分析，这一 Bug 出现在了微信的扫码引擎中（微信团队于 2021 年在 OpenCV 开源其扫码引擎）。
+如果攻击者在数据的末尾添加了一段内容为空的数据，程序就会出错。这是因为程序在读取数据时，会读取这段数据的长度（也就是字节数），但是攻击者在末尾添加的这段数据的长度为0，这就导致了程序出错。为了解决这个问题，开发者需要在读取数据的长度后再初始化变量，以确保程序能够正确读取数据。详细内容
+文章 Moore&amp;rsquo;s Law for Everything - Sam Altman This revolution will create phenomenal wealth. The price of many kinds of labor (which drives the costs of goods and services) will fall toward zero once sufficiently powerful AI “joins the workforce.” The world will change so rapidly and drastically that an equally drastic change in policy will be needed to distribute this wealth and enable more people to pursue the life they want.</description>
+    </item>
+    
+  </channel>
+</rss>

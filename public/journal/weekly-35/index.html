@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>Weekly 35：第一次 CTF | huyixi</title>
+
+
+<link rel="stylesheet" href="/css/main.min.1195bb49aae3ee90c6e80002c54db91d6053f2d88f8ad0cab5c166172565b7d7.css"  integrity="sha256-EZW7Sarj7pDG6AACxU25HWBT8tiPitDKtcFmFyVlt9c=" >
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body m-auto>
+    <div p-5 m-auto sm:mt-20 max-w-screen-md>
+      <div sm:flex sm:gap-20>
+        <header mb-6>
+          
+<nav sticky top-5 flex flex-justify-between mb-4 sm:flex-col sm:flex-items-end sm:w-20>
+    
+      <h1 inline-block cursor-auto> 
+        <a href="/"><img src="/images/avatar.jpg" alt="avatar" ml-2 w12 h12 rd-2></a>
+      </h1>
+    
+    <ul flex sm:flex-col sm:flex-items-end sm:mt-10>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/posts/">Posts</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 aria-current="true" class="ancestor" href="/journal/">Journal</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/projects/">Projects</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/about/">About</a>
+    </li>
+    </ul>
+</nav>
+
+
+        </header>
+        <main px-2 overflow-hidden>
+          
+<article prose>
+
+<h1 text-3xl font-extrabold mt-0>Weekly 35：第一次 CTF</h1>
+
+  
+  
+
+  <time datetime="2023-12-28T23:40:05&#43;08:00" inline-block z-10 mr-2 inline-flex h-7 items-center bg-zinc-100 rounded-lg px-2 text-sm >December 28, 2023</time>
+
+  <h2 id="记录第一次-ctf">记录第一次 CTF</h2>
+<h3 id="第一个-flag">第一个 flag</h3>
+<p>Mon Dec 25 12:37, 2023
+起因是刷 Twitter 的时候看到这样一条推文：
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/hwAFKy.jpg" alt="ctf">
+因为我其实并不了解 CTF，所以刚看到也是很无感的，但是最近关注了一些安全方面的推友，说比较简单，而且挺有意思，于是便收藏起来等后续有空来做（不过我很多收藏的东西就是因为这么想，然后吃灰的）。周一刚好吃完饭比较空闲，就打开来玩一玩。
+首先是使用 Docker 安装，这个很简单，跳过。
+之后进入到服务器，我就一脸懵：
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/aiBZ3E.jpg" alt="">
+只有命令行？什么提示也没有？要怎么开始？之后尝试输入 <code>ls</code>，看看目录中有什么
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/5pI7CJ.jpg" alt="">
+还好还好，这边有几个文件，于是尝试打开第一个：
+<code>vim 01-flag</code>
+进去就看到了：<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/V0RcpV.jpg" alt="">
+然后将这个代码输入网址中：<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/0n8DkG.jpg" alt="">
+原来夺旗赛是这么玩的：只要找到每个 flag 对应的代码就可以。</p>
+<h3 id="第二题查看隐藏文件">第二题：查看隐藏文件</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/pa15Ol.jpg" alt="">
+很简单，使用 dotfile 来隐藏。正好最近在研究 zshrc 和各种 dotfile 的配置备份等，很容易就拿到了第二个旗。</p>
+<h3 id="第三题找东西">第三题：找东西</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/TyZ561.jpg" alt="">
+第一次看到这一题，我是去问了 ChatGPT，但是它根本不知道要干什么。还以为是小学题目要找规律了。看了半天愣是没发现有什么不一样的数字，遂放弃。之后发现每个文件夹中还嵌套了一个文件夹，而这个子文件夹中也有 0 - 99，共 100 个文件夹。于是想起：可能要我们要出 flag 文件在哪里。于是输入命令 <code>find . --name &quot;flag.txt&quot;</code>。
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/kCtaLG.jpg" alt=""></p>
+<h4 id="常用的-find-命令">常用的 find 命令</h4>
+<ul>
+<li>按名字搜索当前文件夹下 <code>abc.txt</code> 文件： <code>find . -name &quot;abc.txt&quot;</code></li>
+<li>按名字搜索并忽略大小写：<code>find . -iname &quot;abc.txt&quot;</code></li>
+<li>按类型搜索 -type：<code>find . -type f</code> 查找文件，<code>find . -type d</code> 查找目录。</li>
+<li>按文件大小搜索 -size：<code>find . -size +50M</code></li>
+</ul>
+<h3 id="第四题解压">第四题：解压</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/tMZ1RO.jpg" alt=""></p>
+<h3 id="第五题访问权限">第五题：访问权限</h3>
+<p>这一题是关于获取访问权限的。我先尝试了 <code>sudo -i</code>，但是无法获取。之后尝试直接修改文件的访问： <code>chmod 666 flag.txt</code>，成功获取到 flag。
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/xyu6k9.jpg" alt=""></p>
+<h3 id="第六题python">第六题：Python</h3>
+<p>这题简单。直接运行这个 Python 文件就好了。</p>
+<h3 id="第七题nginx">第七题：nginx</h3>
+<p>第七题是关于 nginx 的。打开 flag.txt 后直接就有端口号 80 了。
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/6foHJV.jpg" alt="">然后再获取 ip 地址：<code>ip addr</code>，之后 <code>curl 172.17.0.2</code> 这个 ip 地址就拿到这个 flag 了。
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/0uZiYV.jpg" alt="">
+不过因为 80 端口是 HTTP 端口，只要访问这个 ip 地址就可以了。</p>
+<p>至此所有的 flag 就都拿到了。也拿到了作者的红包，感谢。
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/OAgnqG.jpg" alt="">
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/aZk3ca.jpg" alt=""></p>
+<h2 id="我的-wiki">我的 Wiki</h2>
+<p>Tue Dec 26
+手上有一个 huyixi.wiki 的域名，一直没有用。这两天突然想研究 VitePress，于是便想着搭建一个项目来上手，便马上想到了 nikita 的这个 <a href="https://wiki.nikiv.dev/">Everything I Know</a>。除此之外，还受到<a href=""></a>于是利用空闲的时间搭了一个，经过一些踩坑之后，网站也顺利上线了。
+关于为什么要搭建一个个人笔记。今天恰好看见
+ChatGPT 已经越来越不能满足我的需求了：很多的一些内容互联网上的并不够好，所以我需要这个数字花园来帮助我记录一些东西。
+我也不清楚这是不是我一时兴起的三分热度。但还是希望我能坚持记录地更久一点。应该能至少记录四年吧，毕竟这个域名续费到了 27 年末。</p>
+<h2 id="我的英文文档的阅读">我的英文文档的阅读</h2>
+<p>Tue Dec 26
+最近读了 UnoCSS 和 VitePress 的纯英文文档，发现已经不是很害怕了。当然这也与这两个工具配置较为简单有所关系，并且这两个工具的技术我也稍有了解。UnoCSS 类比于 TailWindCSS，VitePress 类比于 Hugo，后两者我已经使用了一段时间了。当然可能也有文档本身就用词较为简单的原因，不过还是值得鼓励的 🎉。</p>
+<h2 id="简中的发言">简中的发言</h2>
+<p>越来越讨厌简中平台上猜字谜似的各种发言了。有时间琢磨作者的意图（当然作者的意图大部分是好的）还不如去外面看看来的有效率。</p>
+<h2 id="dotfile-的备份">dotfile 的备份</h2>
+<p>Wed Dec 27, 2023
+因为最近在研究各种配置文件的备份，目的是为了换电脑或者电脑出问题可以快速恢复。最开始采用 mackup 进行多设备的同步，mackup 其实是一个很好用的工具，一次配置好后就不用再去管理了，很省心。但是因为 git 无法跟踪到 dotfile 文件，在根目录创建一个 git 仓库又不太美观。这两天接触使用了 chezmoi 这个工具，可以很好地管理，但是修改文件过程太过繁琐了。<code>chezmoi edit</code>, <code>chezmoi -v apple</code>, <code>chezmoi cd</code>, <code>source ~/.zshrc</code>, <code>git add .</code>, <code>git commit -m</code>, <code>git push</code>。虽然上传到仓库的过程已经被优化了，但是 chezmoi 管理的过程还是很繁琐。昨晚刚好在研究 owen 玩的一些东西，发现了一个脚本 markdownload。于是有了一个灵感，每天定时执行脚本备份到 git 仓库中。</p>
+<h2 id="极简博客">极简博客</h2>
+<p>最近越来越喜欢简单的极简类型的博客了，可能后期也会将自己的博客修改成那种风格，更专注于文字。
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/MM6oP1.jpg" alt="">
+地址链接：https://egoist.dev</p>
+<h2 id="huyixiorg">huyixi.org</h2>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/nGNg54.jpg" alt="">
+又买了个域名：huyixi.org。
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/ZqvjxJ.jpg" alt="">
+现在手上三个域名了。huyixi.com, huyixi.org, huyixi.wiki。基本上把自己名字的重要的域名都集齐了。就是每年续费费用有点心疼，要 300 多了。
+目前的想法是 com 域名慢慢搭建成一个个人品牌宣传网站（可以搞一些比较炫酷的效果）；org 专注博客，发布一些简单的文本内容博客；wiki 就作为我的知识库来使用了。</p>
+<h2 id="来不及了年终总结">来不及了，年终总结！</h2>
+<p>明天就要去楠溪江跨年了，今晚紧赶慢赶还只赶出来一点读书的年度总结。2023 整体的年度总结再拖下去不会要到 2024 年了吧！行李还没收拾，这篇周报先安排更新上吧。还有 org 的网站，又高估了自己，没做完。元旦后再回来做吧。</p>
+
+  
+
+</article>
+
+
+        </main>
+      </div>
+      
+    </div>
+
+  </body>
+
+</html>

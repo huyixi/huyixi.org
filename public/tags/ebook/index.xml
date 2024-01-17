@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ebook on huyixi</title>
+    <link>https://huyixi.org/tags/ebook/</link>
+    <description>Recent content in ebook on huyixi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 May 2023 08:00:00 +0800</lastBuildDate><atom:link href="https://huyixi.org/tags/ebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的电子书阅读不完全解决方案</title>
+      <link>https://huyixi.org/posts/ebook-solution/</link>
+      <pubDate>Sun, 21 May 2023 08:00:00 +0800</pubDate>
+      
+      <guid>https://huyixi.org/posts/ebook-solution/</guid>
+      <description>获取电子书 以下不包含从电子书商城购买下载的内容.下面的内容可能涉及到侵权等,如果资金允许,建议从正规渠道购买下载.
+从互联网获取 Z-Library 该组织将自己描述为“世界上最大的电子书图书馆”，以及“世界上最大的科学文章商店”.并作为一个由捐赠维持的非营利组织运营。但是 2022 年 11 月，该网站的域名被美国司法部查封..在 Z-Library 的用户群中,中国用户遥遥领先于其他国家(来自 Z-Library 博客 Worldwide Statistics: How Students and Educators Use Z-Library 中的数据).
+如何访问 Z-Library 通过域名访问
+Web:https://singlelogin.re
+TOR:http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion
+I2P:http://zlib24th6ptyb4ibzn3tj2cndqafs6rhm4ed4gruxztaaco35lka.b32.i2p
+通过域名访问里面的部分内容可能无法查看,如博客,书单等页面.这些内容可以通过使用个人域名访问
+以上域名随时可能被回收,如果无法访问可以使用电子邮件获取,或者从从官方发布的最新域名中获取.官方频道
+通过电子邮件获取个人域名
+你可以使用任意邮箱,发送任意内容到 blackbox@zlib.se,将在 3-5 分钟内收到你 Z-Library 个人的域名。如果没有收到邮件,前往被拦截的邮件中查看.在个人域名中可以查看Z-Library 的博客书单等.
+Anna&amp;rsquo;s Archive Anna&amp;rsquo;s Archive 是图书馆创世纪和 Z-Library 影子图书馆的备份.Z-Library 被关闭后一个比较流行的替代站点.可以直接访问
+自制电子书 如如果你平时经常查看一些文档，但是这些文档又没有电子书的，都是你可以通过自制电子书来在你的kindle上查看这些文档内容.
+浏览器插件生成电子书 WebToEpub Github 仓库
+WebToEpub Chrome 下载地址
+文档教程
+示例：
+KTool 将链接输入 KTool 中生成并推送到 Kindle 中。但是导入链接一次最多导入 30 个，且生成的电子书只能以 30 个链接为一本，链接增加则会分成几本书。
+用到的软件：Sigil](https://sigil-ebook.com/sigil/),Github 上 star 最多的电子书软件。或者可以自己下载使用其他软件。</description>
+    </item>
+    
+  </channel>
+</rss>

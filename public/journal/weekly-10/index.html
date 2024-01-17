@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>Weekly 10：如何活得更久？ | huyixi</title>
+
+
+<link rel="stylesheet" href="/css/main.min.1195bb49aae3ee90c6e80002c54db91d6053f2d88f8ad0cab5c166172565b7d7.css"  integrity="sha256-EZW7Sarj7pDG6AACxU25HWBT8tiPitDKtcFmFyVlt9c=" >
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body m-auto>
+    <div p-5 m-auto sm:mt-20 max-w-screen-md>
+      <div sm:flex sm:gap-20>
+        <header mb-6>
+          
+<nav sticky top-5 flex flex-justify-between mb-4 sm:flex-col sm:flex-items-end sm:w-20>
+    
+      <h1 inline-block cursor-auto> 
+        <a href="/"><img src="/images/avatar.jpg" alt="avatar" ml-2 w12 h12 rd-2></a>
+      </h1>
+    
+    <ul flex sm:flex-col sm:flex-items-end sm:mt-10>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/posts/">Posts</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 aria-current="true" class="ancestor" href="/journal/">Journal</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/projects/">Projects</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/about/">About</a>
+    </li>
+    </ul>
+</nav>
+
+
+        </header>
+        <main px-2 overflow-hidden>
+          
+<article prose>
+
+<h1 text-3xl font-extrabold mt-0>Weekly 10：如何活得更久？</h1>
+
+  
+  
+
+  <time datetime="2023-06-25T20:00:00&#43;08:00" inline-block z-10 mr-2 inline-flex h-7 items-center bg-zinc-100 rounded-lg px-2 text-sm >June 25, 2023</time>
+
+  <h2 id="文章">文章</h2>
+<h3 id="1如何写一个好的-git-commit-">1.如何写一个好的 git commit ?</h3>
+<h2 id="type-of-commit">Type of commit</h2>
+<blockquote>
+<p>feat: The new feature being added to a particular application
+fix: A bug fix (this correlates with PATCH in SemVer)
+style: Feature and updates related to styling
+refactor: Refactoring a specific section of the codebase
+test: Everything related to testing
+docs: Everything related to documentation
+chore: Regular code maintenance</p>
+</blockquote>
+<h4 id="相关命令">相关命令</h4>
+<ul>
+<li>
+<p>设置提交消息模板</p>
+<p>在主目录中创建一个名为 <code>.gitmessage</code> 的文件，并添加以下内容：</p>
+<pre tabindex="0"><code>[summary]
+
+[details]
+</code></pre><p>运行以下命令告诉 Git 使用此文件作为提交消息的模板：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global commit.template ~/.gitmessage
+</span></span></code></pre></div></li>
+<li>
+<p>只打印主题行</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git log --oneline
+</span></span></code></pre></div></li>
+<li>
+<p>按用户提交进行分组</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git shortlog
+</span></span></code></pre></div></li>
+</ul>
+<h4 id="相关文章">相关文章：</h4>
+<p><a href="https://medium.com/swlh/writing-better-commit-messages-9b0b6ff60c67">Writing Better Commit Messages - Apurva Jain</a></p>
+<p><a href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/">How to Write Good Commit Messages: A Practical Git Guide - Bolaji Ayodeji</a></p>
+<p><a href="https://blog.ossph.org/how-to-write-a-good-git-commit-message/">How to Write a Good Git Commit Message</a></p>
+<h4 id="相关工具">相关工具：</h4>
+<p><a href="https://github.com/commitizen/cz-cli">commitizen</a></p>
+<p><a href="https://github.com/streamich/git-cz">git-cz</a></p>
+<p>文件 git add 后，使用 git-cz 提交</p>
+<h3 id="2智齿">2.智齿</h3>
+<p>最近智齿发炎，去医院检查，医生说需要拔掉。这里是一些跟智齿相关的内容。</p>
+<ul>
+<li>
+<p><a href="https://www.healthhub.sg/a-z/diseases-and-conditions/486/oral_maxillofacial_surgery_sdhf">Wisdom Teeth Removal: Oral and Maxillofacial Surgery </a></p>
+</li>
+<li>
+<p><a href="https://www.nhs.uk/conditions/wisdom-tooth-removal/">Wisdom tooth removal </a></p>
+</li>
+<li>
+<p><a href="https://ntuchealth.sg/denticare/resources/wisdom-teeth-101-all-you-need-to-know-about-wisdom-tooth-removal">Wisdom Teeth 101: All You Need To Know About Wisdom Tooth Removal</a></p>
+</li>
+</ul>
+<p>拔除的过程还是很迅速的，大概 15 分钟左右就拔掉了。在三甲医院的口腔科，总共花费了约 750 元。</p>
+<h3 id="3css-flex-layout">3.CSS Flex layout</h3>
+<p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties">A Complete Guide to Flexbox Flexbox</a></p>
+<p><a href="https://www.w3.org/TR/css-flexbox-1/#intro">CSS Flexible Box Layout Module Level 1</a></p>
+<h3 id="4爱上失焦的世界">4.爱上失焦的世界！</h3>
+<p><a href="https://subnooc.com/posts/to-love-the-blur-world">爱上失焦的世界</a></p>
+<p>在语言学习上，一直有个说法是，小孩子学习语言会比成年人快。除开小孩记忆力强等原因，回想自己小时候，学习很多东西都是不能完全理解的，但是也不会太害怕。那个时候不在乎自己有没有完全理解，只会对自己能理解的部分作出反应。</p>
+<p>我在想，是不是我这种想要完全理解一个东西的心态，看见一句英语后，必须要完全理解了才会进行下一句，正是阻止了我学习英语脚步的原因。</p>
+<p>于是我开始尝试换一种方式学习英语，直接看简单的原著，能看懂多少算多少，不要去在乎那些没太看懂的部分，就当是和这些单词打个照面。</p>
+<p>于是打开了《The Wonderful Wizard of OZ》，也就是《绿野仙踪》。第一章就看得似懂非懂，我理解成了，在他们的地下室，可以看到每个人的心情，心情好的人是彩色的，心情不好的人是灰色的。</p>
+<p>虽然看到后面，发现书里的设定并非如此，不过我觉得这个设定还挺有趣。所以我发现，这种模糊的、不确定的理解，似乎正是想象力和创造力的来源。</p>
+<p>这也可以解释为什么小孩子的想象力和创造力要远远大于成人。在成长中习得了能看清楚一些事物的能力，便开始拒绝去接触所有看不清的东西，于是所有的可能性就被限制在了自己眼前所看到的视角。</p>
+<p>失焦（Out of Focus）</p>
+<h3 id="5一棵小树的博客">5.一棵小树的博客</h3>
+<h6 id="提升信噪比过滤有价值信息的方法httpsyeshucloudpostsnewsletter-69"><a href="https://yeshu.cloud/posts/newsletter-69/">提升信噪比：过滤有价值信息的方法</a></h6>
+<ol>
+<li>不要听不厉害的人教你怎么变厉害：应该选择那些在特定领域中具有实力和成就的人，从他们那里获取准确和有深度的信息。培养自己批判性思维和信息验证的能力，以辨别真相和谣言之间的差别。</li>
+<li>不要听象牙塔里的人感悟人生：事非经过不知难，没有真正下场实践过的感悟大多是纸上谈兵。</li>
+<li>不要听评论/翻译家教你怎么去执行：他们更多是信息的传播者，而非实干家。</li>
+<li>取关关注列表中只会抱怨的人：我们应该选择与那些积极、理性并能提供有益信息的人保持交流。</li>
+<li>取关分不清事实和观点，只会在评论区党同伐异的人：过度暴露于负面的评论和争论中会消耗我们的注意力，而且很少能获取到有建设性的信息。</li>
+</ol>
+<h6 id="个人知识管理的困境与改进httpsyeshucloudpostsnewsletter-51"><a href="https://yeshu.cloud/posts/newsletter-51">个人知识管理的困境与改进</a></h6>
+<p><strong>这就是为什么大家常说不要在毛坯房里雕花。</strong></p>
+<p>因为系统在没有搭建完成之前，对细枝末节的优化未必是好事。</p>
+<p>首先要确定基础的框架，建立流程，让这个系统能够按照预想的方式运行起来。</p>
+<p>粗糙一点没关系，只要它对我们的工作是有实际价值的。</p>
+<p>只有这样，再收集遇到的问题，分析并持续优化，才是有意义的。</p>
+<h3 id="6-英语才能发挥-chatgpt-的能力">6. 英语才能发挥 ChatGPT 的能力？</h3>
+<p><a href="https://clip.owenyoung.com/2023/06/04/chat-gpt-is-cutting-non-english-languages-out-of-the-ai-revolution/#chatgpt%E5%B0%86%E9%9D%9E%E8%8B%B1%E8%AF%AD%E8%AF%AD%E8%A8%80%E6%8E%92%E9%99%A4%E5%9C%A8ai%E9%9D%A9%E5%91%BD%E4%B9%8B%E5%A4%96--wired">ChatGPT 将非英语语言排除在 AI 革命之外</a></p>
+<h2 id="资源">资源</h2>
+<h3 id="1-来读点有意思的东西">1. 来读点有意思的东西！</h3>
+<p><a href="https://readsomethingwonderful.com/">Read Something Wonderful</a></p>
+<p>网页设计漂亮，交互优雅，收录了不少优质内容。包括 Altman 的一些博客文章。左侧的文章似乎可以无限滚动查看，右侧则是一些相关的信息，比如作者，出版时间等。</p>
+<h3 id="2-神学和网络安全的博客">2. 神学和网络安全的博客</h3>
+<p><a href="https://eddyemma.com/">Eddy &amp; Emma&rsquo;s Blog</a></p>
+<p>神学和网络安全跨界博客，太猛了。</p>
+<p>这是他们的网络安全相关的系列文章：</p>
+<p><a href="https://eddyemma.com/scientific-access/">网络安全</a></p>
+<h3 id="3-长毛象上的开源豆瓣">3. 长毛象上的开源豆瓣</h3>
+<p>官网：<a href="https://neodb.social">NeoDB</a></p>
+<p>Github 仓库<a href="https://github.com/neodb-social/neodb">NeoDB - Github</a></p>
+<p>一个类似豆瓣的开源项目。可以收藏你喜欢的东西。footer 里公开的 API ，方便二次开发。账号系统基于 mastodon，也支持从其他平台倒入数据。</p>
+<h3 id="4-从阮一峰科技爱好者周刊的-issue-中获取最新的技术趋势">4. 从阮一峰科技爱好者周刊的 issue 中获取最新的技术趋势</h3>
+<p><a href="https://github.com/ruanyf/weekly/issues">阮一峰科技爱好者周刊 issue</a></p>
+<p>![image-20230628155253906](/Users/huyixi/Library/Application Support/typora-user-images/image-20230628155253906.png)</p>
+<h3 id="5乔布斯档案馆">5.乔布斯档案馆</h3>
+<p><a href="https://stevejobsarchive.com/">The Steve Jobs Archive</a></p>
+<p>logo 是一个苹果从苹果树上掉下来。</p>
+<p>内容并不多， 只看到了乔布斯的两篇文章。</p>
+<h3 id="6用中文浏览国外社交媒体里的热门讨论">6.用中文浏览国外社交媒体里的热门讨论</h3>
+<p><a href="https://www.buzzing.cc">buzzing</a></p>
+<p>官方对这个网站的介绍：用中文浏览国外社交媒体里的热门讨论，母语快速导读， 感兴趣再进原文深度阅读</p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/weekly/">weekly</a></li>
+    </ul>
+  </div>
+
+</article>
+
+
+        </main>
+      </div>
+      
+    </div>
+
+  </body>
+
+</html>

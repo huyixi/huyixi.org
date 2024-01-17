@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>Weekly 15：VIM 作者逝世 | huyixi</title>
+
+
+<link rel="stylesheet" href="/css/main.min.1195bb49aae3ee90c6e80002c54db91d6053f2d88f8ad0cab5c166172565b7d7.css"  integrity="sha256-EZW7Sarj7pDG6AACxU25HWBT8tiPitDKtcFmFyVlt9c=" >
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body m-auto>
+    <div p-5 m-auto sm:mt-20 max-w-screen-md>
+      <div sm:flex sm:gap-20>
+        <header mb-6>
+          
+<nav sticky top-5 flex flex-justify-between mb-4 sm:flex-col sm:flex-items-end sm:w-20>
+    
+      <h1 inline-block cursor-auto> 
+        <a href="/"><img src="/images/avatar.jpg" alt="avatar" ml-2 w12 h12 rd-2></a>
+      </h1>
+    
+    <ul flex sm:flex-col sm:flex-items-end sm:mt-10>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/posts/">Posts</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 aria-current="true" class="ancestor" href="/journal/">Journal</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/projects/">Projects</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/about/">About</a>
+    </li>
+    </ul>
+</nav>
+
+
+        </header>
+        <main px-2 overflow-hidden>
+          
+<article prose>
+
+<h1 text-3xl font-extrabold mt-0>Weekly 15：VIM 作者逝世</h1>
+
+  
+  
+
+  <time datetime="2023-07-31T22:29:00&#43;08:00" inline-block z-10 mr-2 inline-flex h-7 items-center bg-zinc-100 rounded-lg px-2 text-sm >July 31, 2023</time>
+
+  <h2 id="rip">R.I.P.</h2>
+<h3 id="vim-作者-bram-moolenaar-逝世">VIM 作者 Bram Moolenaar 逝世</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/VIM.JPG" alt=""></p>
+<h2 id="技巧">技巧</h2>
+<h3 id="命令行打开远程仓库">命令行打开远程仓库</h3>
+<h4 id="git-命令">Git 命令</h4>
+<p>使用 Git op（或者其他自定义别名）</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global alias.op <span style="color:#e6db74">&#39;!sh -c &#34;open $(git remote get-url origin)&#34;&#39;</span>
+</span></span></code></pre></div><p>OP 可以更换为你所想要的其他任何别名</p>
+<h4 id="直接输入-op-打开">直接输入 op 打开</h4>
+<ol>
+<li>
+<p><strong>打开 shell 配置文件</strong></p>
+<ul>
+<li>对于 <strong>bash</strong>，是 <code>~/.bashrc</code> 或 <code>~/.bash_profile</code> （macOS）</li>
+<li>对于 <strong>zsh</strong>，是 <code>~/.zshrc</code></li>
+<li>对于 <strong>fish</strong>，是 <code>~/.config/fish/config.fish</code></li>
+</ul>
+</li>
+<li>
+<p><strong>添加别名</strong>
+在配置文件的底部添加以下内容（以 bash 或 zsh 为例）：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>alias op<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;open </span><span style="color:#66d9ef">$(</span>git remote get-url origin<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>如果你使用的是 Linux，并且安装了<code>xdg-open</code>，你可以这样设置：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>alias op<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xdg-open </span><span style="color:#66d9ef">$(</span>git remote get-url origin<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>对于 Windows 的 Git Bash 或其他 shell：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>alias op<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;start \&#34;\&#34; </span><span style="color:#66d9ef">$(</span>git remote get-url origin<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>保存并关闭配置文件</strong></p>
+</li>
+<li>
+<p><strong>使更改生效</strong>
+要使新的别名生效，你需要重新加载配置文件或重启你的 shell。对于 bash 或 zsh，你可以运行：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>source ~/.bashrc  <span style="color:#75715e"># 或 source ~/.zshrc 或 source ~/.bash_profile</span>
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="prompt">Prompt</h3>
+<ul>
+<li>Khanmigo: 对于提交的结果，不直接给出答案，而是先判断答案是否正确。如果错误，让学生解释他们的推理过程，纠正概念上的错误。</li>
+</ul>
+<h2 id="资源">资源</h2>
+<h3 id="css-转为-sass-工具">CSS 转为 SASS 工具</h3>
+<p><a href="http://css2sass.herokuapp.com">CONVERT CSS TO SASS / SCSS</a></p>
+<h3 id="中文导航站">中文导航站</h3>
+<p><a href="https://chuanliu.org">川流</a></p>
+<p>川流是一个博客导航站，发起于“<strong>中文博客圈微信群</strong>”。</p>
+<h3 id="ai-学英语">AI 学英语</h3>
+<p><a href="https://www.prettypolly.app/app">PrettyPolly</a></p>
+<p><a href="https://myshell.ai">MyShell</a></p>
+<h2 id="工具">工具</h2>
+<h3 id="苹果免越狱定位修改器">苹果免越狱定位修改器</h3>
+<p><a href="https://github.com/Schlaubischlump/LocationSimulator">LocationSimulator</a></p>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/weekly/">weekly</a></li>
+    </ul>
+  </div>
+
+</article>
+
+
+        </main>
+      </div>
+      
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>Weekly 21：不要成为一个等待喂养的躯壳 | huyixi</title>
+
+
+<link rel="stylesheet" href="/css/main.min.1195bb49aae3ee90c6e80002c54db91d6053f2d88f8ad0cab5c166172565b7d7.css"  integrity="sha256-EZW7Sarj7pDG6AACxU25HWBT8tiPitDKtcFmFyVlt9c=" >
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body m-auto>
+    <div p-5 m-auto sm:mt-20 max-w-screen-md>
+      <div sm:flex sm:gap-20>
+        <header mb-6>
+          
+<nav sticky top-5 flex flex-justify-between mb-4 sm:flex-col sm:flex-items-end sm:w-20>
+    
+      <h1 inline-block cursor-auto> 
+        <a href="/"><img src="/images/avatar.jpg" alt="avatar" ml-2 w12 h12 rd-2></a>
+      </h1>
+    
+    <ul flex sm:flex-col sm:flex-items-end sm:mt-10>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/posts/">Posts</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 aria-current="true" class="ancestor" href="/journal/">Journal</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/projects/">Projects</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/about/">About</a>
+    </li>
+    </ul>
+</nav>
+
+
+        </header>
+        <main px-2 overflow-hidden>
+          
+<article prose>
+
+<h1 text-3xl font-extrabold mt-0>Weekly 21：不要成为一个等待喂养的躯壳</h1>
+
+  
+  
+
+  <time datetime="2023-09-09T10:32:11&#43;08:00" inline-block z-10 mr-2 inline-flex h-7 items-center bg-zinc-100 rounded-lg px-2 text-sm >September 9, 2023</time>
+
+  <h2 id="动态">动态</h2>
+<h4 id="生活碎片">生活碎片</h4>
+<h4 id="sep-12">Sep 12</h4>
+<p>看了点 Figma，还想全干。</p>
+<h5 id="sep-13">Sep 13</h5>
+<p>昨晚是苹果的发布会，但是我已经没有像以前那样关注这些电子设备了。</p>
+<p>目前手上的设备已经基本满足我的需要，所以并没有很关心这一类东西了。</p>
+<p>早上把手机的相册导出删除了。然后升级了系统。</p>
+<p>个人的 stack 上一直有一个我喜欢的设备的分享，计划在放置在 Like 里面。</p>
+<p>但是一直拖着没去做。想做的事情确实太多了。</p>
+<p>在美团上叫了一个清洁的家政阿姨，美团上收费 119。打扫完阿姨让我加一下微信，以后有打扫可以从微信上叫。然后她说了一句话：下次过来阿姨收你 40 就好（阿姨说这句话的时候还有点犹豫，可能怕 40 太多，可能平台给她这一单的价格都不到 40 ），你在平台上估计得 5，60 吧。我是跟阿姨一样震惊的，我知道平台抽点很多，但是没想到有这么多（中间可能还经过了一层公司的抽点）。一个劳动者到最后干了最多的活，结果收到的可能是最少的钱。</p>
+<p>本周录取上了 23，24 号的泉州草莓音乐节志愿者。很开心又能去现场玩了，又可以认识好多小伙伴。开心开心开心。</p>
+<h4 id="sep-14">Sep 14</h4>
+<p>又失眠了。</p>
+<p>可能是因为晚上搞了杯 Koi 。Koi 还是有点贵的，喝起来感觉跟一点点没啥区别，但是贵了好多。</p>
+<p>半夜爬起来给博客加了个滚动条，效果还不错，但是颜色方面感觉还是有点点不合适，以后有合适的颜色再换上。</p>
+<p>主要代码如下：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">documentElement</span>.<span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">||</span> document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">scrollTop</span>;
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">scrollHeight</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">documentElement</span>.<span style="color:#a6e22e">scrollHeight</span> <span style="color:#f92672">||</span> document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">scrollHeight</span>;
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">clientHeight</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">documentElement</span>.<span style="color:#a6e22e">clientHeight</span> <span style="color:#f92672">||</span> document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">clientHeight</span>;
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">scrolled</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">scrollTop</span> <span style="color:#f92672">/</span> (<span style="color:#a6e22e">scrollHeight</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">clientHeight</span>)) <span style="color:#f92672">*</span> <span style="color:#ae81ff">100</span>;
+</span></span></code></pre></div><h4 id="sep-15">Sep 15</h4>
+<p>晚上继续追乐队的夏天 3。</p>
+<p>这一季的改变赛太没意思了。前两季的改变塞整体感觉好多了。唯一一首感觉最好的就是八仙饭店的改编的张雨生的，最近一直循环播放。</p>
+<ul>
+<li>
+<p>回春丹 VS 麻园诗人</p>
+<p>回春丹真的是 “老油条” ，现场太松弛，舞台感、状态都太好了。刘西蒙的舞步也很牛哈哈哈。有机会要去线下看看。</p>
+<p>麻园诗人跟回春丹一比舞台感，感觉差好多，看看后面流量多了之后会不会请人指点一下。</p>
+<p>一直感觉麻原诗人赢不了回春丹，没想到居然又赢了 😂。</p>
+<p>后面希望麻原诗人状态能越变越好吧，这样才比较好看，节目上的麻园诗人比平时看到的状态差挺多的。</p>
+</li>
+<li>
+<p>瓦伊纳 VS Mr.Miss</p>
+<p>预测瓦伊娜能赢（押中），但是瓦伊纳感觉有点听腻了，好像没什么新东西了。</p>
+<p>榴莲好厉害，自己赚到钱了不忘带一把兄弟们。Jazz 的受众确实还太少了。我最近也是刚被 Justin Yan 带入 Jazz 的坑。不过 Jazz 的情绪没有摇滚给的那么直白。还没有很 Get 到。</p>
+<p>大张伟是真的会说话，一片树叶能诠释那么多东西，我还差的有点多。</p>
+</li>
+<li>
+<p>康士坦的变化球 VS 柏林护士</p>
+</li>
+</ul>
+<p>这一场我更倾向于柏林护士，比较喜欢这种炸的现场。相信如果去蹦柏林护士，应该也会很爽(节目没看完前写的)。</p>
+<p>没想到最后胜出的确实是柏林护士，果然这个舞台上，分更高的还是属于更炸的。梅卡德尔来了估计更炸哈哈哈。</p>
+<p>柏林护士主唱最后的发言像是感觉自己要被淘汰了，毕竟面对的对手要比他们出名很多。</p>
+<p>希望后面能看到柏林护士更多的东西。</p>
+<h3 id="本周在读">本周在读</h3>
+<ul>
+<li>《秦制两千年》</li>
+<li>《血酬》</li>
+<li>《纳瓦尔宝典》</li>
+<li>《 Unix 编程艺术》</li>
+<li>浮之静公众号 - 《学习 &amp; 思考》 合集</li>
+</ul>
+<h3 id="reeder-自动化取消订阅">Reeder 自动化取消订阅</h3>
+<p>在 Reeder 中导入了 国外技术博客汇集工具「engblogs」，发现 feed 过多，有点信息爆炸，就修改了上次的代码，重新取消这些订阅。🤦</p>
+<p>执行效果：</p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/unsubscribe.gif" alt="unsubscribe"></p>
+<p>这次的代码添加了新的特性:</p>
+<ul>
+<li>
+<p>可以使用键盘快捷键来打断 Apple Script 的执行，避免误删我需要的订阅。利用到了 Karabiner 这个工具。</p>
+<p>实现思路：使用 Karabiner 来绑定快捷键 <code>f5</code> <code>f6</code>，通过点击这两个快捷键来生成制定的文件。在 Apple Script 中添加检测的函数，如果监测到指定文件，则暂停执行代码，否则正常执行。</p>
+</li>
+<li>
+<p>并且将部分鼠标的移动改为使用键盘，避免鼠标指针位置出错。</p>
+</li>
+</ul>
+<ol>
+<li>
+<p>首先打开 unsafe config ，以便可以运行 shell command</p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20230913-kzxk.png" alt="SCR-20230913-kzxk"></p>
+</li>
+<li>
+<p>打开配置文件，修改快捷键</p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20230913-laar.png" alt="SCR-20230913-laar"></p>
+</li>
+<li>
+<p>添加下面的规则到 profiles, rules</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Pause AppleScript Execution with F5&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;manipulators&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;basic&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;from&#34;</span>: {
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;key_code&#34;</span>: <span style="color:#e6db74">&#34;f5&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;modifiers&#34;</span>: {
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&#34;optional&#34;</span>: [<span style="color:#e6db74">&#34;any&#34;</span>]
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;to&#34;</span>: [
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&#34;shell_command&#34;</span>: <span style="color:#e6db74">&#34;touch ~/pause_signal.txt&#34;</span>
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;Resume AppleScript Execution with F6&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;manipulators&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;basic&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;from&#34;</span>: {
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;key_code&#34;</span>: <span style="color:#e6db74">&#34;f6&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">&#34;modifiers&#34;</span>: {
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&#34;optional&#34;</span>: [<span style="color:#e6db74">&#34;any&#34;</span>]
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;to&#34;</span>: [
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    <span style="color:#f92672">&#34;shell_command&#34;</span>: <span style="color:#e6db74">&#34;rm ~/pause_signal.txt&#34;</span>
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></li>
+<li>
+<p>在 Apple Script 中 添加一条监听的代码，如果监测到 指定文件，则暂停执行脚本</p>
+</li>
+</ol>
+<p><strong>Apple Script 代码</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span>on run
+</span></span><span style="display:flex;"><span>	my mainTask()
+</span></span><span style="display:flex;"><span>end run
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>on mainTask()
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">set</span> dx1 to <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">set</span> dy1 to <span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">set</span> dy2 to <span style="color:#ae81ff">30</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">set</span> counter to <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">repeat</span> <span style="color:#ae81ff">20</span> times
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">repeat</span> <span style="color:#ae81ff">20</span> times
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">set</span> x to <span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">set</span> y to <span style="color:#ae81ff">280</span> <span style="color:#f92672">+</span> dy2 <span style="color:#f92672">*</span> counter
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">do</span> shell script <span style="color:#e6db74">&#34;/opt/homebrew/bin/cliclick m:&#34;</span> <span style="color:#f92672">&amp;</span> x <span style="color:#f92672">&amp;</span> <span style="color:#e6db74">&#34;,&#34;</span> <span style="color:#f92672">&amp;</span> y <span style="color:#f92672">&amp;</span> <span style="color:#e6db74">&#34;  c:.  kd:ctrl  c:.  ku:ctrl  kp:arrow-down kp:arrow-down kp:arrow-down&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> checkForPauseSignal() then
+</span></span><span style="display:flex;"><span>				error <span style="color:#e6db74">&#34;Script stopped due to pause signal.&#34;</span>
+</span></span><span style="display:flex;"><span>			end <span style="color:#66d9ef">if</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">do</span> shell script <span style="color:#e6db74">&#34;/opt/homebrew/bin/cliclick kp:return kp:return&#34;</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">set</span> counter to counter <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>		end <span style="color:#66d9ef">repeat</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">set</span> counter to <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>	end <span style="color:#66d9ef">repeat</span>
+</span></span><span style="display:flex;"><span>end mainTask
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>on checkForPauseSignal()
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> (<span style="color:#66d9ef">do</span> shell script <span style="color:#e6db74">&#34;test -e ~/pause_signal.txt; echo $?&#34;</span>) <span style="color:#66d9ef">is</span> <span style="color:#e6db74">&#34;0&#34;</span>
+</span></span><span style="display:flex;"><span>end checkForPauseSignal
+</span></span></code></pre></div><h2 id="文章">文章</h2>
+<p><a href="https://justinyan.me/post/tag/%E4%B8%AA%E4%BA%BAOKR%E5%AE%9E%E8%B7%B5">个人 OKR 实践</a> - 枫影 Justin Yan</p>
+<p>每个月 Review</p>
+<p>时问自己下述问题：</p>
+<ul>
+<li>Describe November in one word</li>
+<li>Rate from 1-10: &ldquo;This month, I took steps to get closer to my goals and dream life.&rdquo;</li>
+<li>Highlights from the past month</li>
+<li>One thing I learned</li>
+<li>One thing I&rsquo;m proud of</li>
+<li>How can I improve for next month?</li>
+</ul>
+<p>目标掌控者会根据自己的生涯目标来确定努力的方向。他们对待学业的态度清晰明确，他们的学习目标也非常明确。我们都害怕选择，因为选择意味着可能放弃某些东西。但当你选择了自己真正想要的东西时，你可能必须放弃其他东西。</p>
+<p>不要把每件事都看得太重，人都有弱点，这些弱点可能会导致我们做出错误的决策。</p>
+<p>修身齐家治国平天下，修身的重要性不亚于技术。</p>
+<p>有些非常优秀的人会选择从好的大学中退学，这不是因为他们傲慢，而是因为他们有更远大的目标。</p>
+<p>计划与未来是两回事，长期计划并不意味着你可以预知未来，但它可以帮助你在混沌中找到方向。</p>
+<p>在制定、执行和回顾计划的过程中，我们有机会暂停，看看是否有些重要的事情被遗漏了。如何更好地发现和了解自己？第一种方法是回顾过去，寻找造就今日自己的原因，记录下自己的成长经历。读一些好书，如《被讨厌的勇气》，也可以帮助你换个角度看待自己。</p>
+<h3 id="信息茧房自救指南---michael-simmons">信息茧房自救指南 - Michael Simmons</h3>
+<p><a href="https://www.linkedin.com/pulse/while-everyone-distracted-social-media-successful-people-simmons-1e">原文链接</a></p>
+<h4 id="概念">概念</h4>
+<p><strong>突破性知识：</strong></p>
+<p>现在，在世界的某个角落，有一段文字、一章内容或者一整本书籍，只要你读过，就有可能永久改变你的人生轨迹。<strong>我把这种内容称之为“突破性知识”。</strong></p>
+<p><strong>增强性知识：</strong></p>
+<p>增强性知识进一步加强了我们对已知事物的认知。**这就像我们已经读过二十本营销相关的书，然后又读了一本讲同样内容的书。这样的知识通常只是一时激起你的兴趣，很快就会被遗忘。</p>
+<p>在这个信息爆炸的时代，寻找并掌握突破性知识的能力，是我们需要学习的最重要的技能之一。我们每个人都曾有过类似的突破性体验。可能是父母、导师或老师说过的一句话，深深地改变了我们的思维和行为。或者是一本书，深深地震撼了我们的内心世界。</p>
+<p>我最近的突破性知识：Justin Yan 的我希望你的选择真是你的选择</p>
+<p>一次突破性的知识体验可能只持续几分钟，但它的影响却可能伴随我们一生。这就是学习的极致杠杆效应。</p>
+<h4 id="引发信息末日的四大问题">引发信息末日的四大问题：</h4>
+<ul>
+<li>
+<p><strong>信息过载</strong></p>
+<p>信息的大量涌入导致了注意力的极度匮乏 ——赫伯特·西蒙（Herbert A. Simon）</p>
+</li>
+<li>
+<p><strong>信息茧房</strong></p>
+<p>每个群体都生活在自己的信息茧房中，他们认为这就是“真实”的世界，他们通过妖魔化其他群体来维持这种信念。</p>
+<p>在这个社交媒体和算法推荐内容盛行的时代，这些信息茧房变得更加孤立，因为我们接触到的信息越来越少，尤其是那些来自于我们所选择的群体之外的信息。</p>
+</li>
+<li>
+<p><strong>注意力持续性涣散</strong></p>
+<p>我们的现实和虚拟世界正被越来越多、越来越精心制作的内容所包围，这些都是根据我们个人的喜好来定制的，形成了一股不可忽视的干扰力量，不仅分散了我们的注意力，还阻碍了我们获取更有价值的信息或实现个人目标</p>
+</li>
+<li>
+<p><strong>害怕错过（FOMO - Fear of Missing Out)</strong></p>
+<p>让人感到不堪重负的并非选项的多样性，而是高质量选项的丰富性。</p>
+<p>由于优质选择过多，加之对最佳选择的预知不足，我们总是在不断地质疑自己是否做出了正确的决策。</p>
+<p>结果: 媒体垃圾食品成了我们的日常饮食。</p>
+</li>
+</ul>
+<h4 id="解决方案">解决方案</h4>
+<ul>
+<li>
+<p>从被动接收信息转向主动筛选和获取信息</p>
+<p>我们不能盲目依赖新闻摘要、默认通知、算法推荐来为我们在信息世界中指引航向。控制这些内容的公司并没有把我们的最佳利益放在心上.</p>
+<p>这些信息流的设计目的只有一个：在短期和长期内尽可能地吸引并抓住你的注意力。</p>
+<p>这种商业模式从根本上与我们的人生目标是相冲突的。</p>
+</li>
+</ul>
+<h4 id="如何寻找突破性知识">如何寻找突破性知识？</h4>
+<ul>
+<li>
+<p><strong>提出问题，从增强性知识中筛选出突破性知识</strong></p>
+<p>证伪：<strong>能够证伪你当前观点的证据，其价值远超过能够证实你观点的证据。</strong></p>
+<p>一条能推翻你现有观点的证据，其价值可能远胜于一百万条能证实你观点的证据，就如同一本能带来突破性知识的书籍比一百本只能提供增强性知识的书籍更有价值一样。</p>
+</li>
+<li>
+<p><strong>意识到信息过载是一个古老的问题</strong></p>
+<p>帖子 &gt; 长文章 &gt; 书籍 &gt; 书籍摘要 &gt; 领域摘要 &gt; 心智模型</p>
+<p>书籍摘要：Blinkist（播客），Get Abstract（付费）</p>
+<p>领域摘要：《傻瓜指南 For Dummies Guides》</p>
+<p>心智模型：例如二八定律，光环效应</p>
+</li>
+<li>
+<p><strong>学习如何学习</strong></p>
+<p>了解科学的方法，来识别高质量的信息。 了解各种知识的价值。 理解那些认知偏差(如确认偏差、逆火效应、邓宁-克鲁格效应、光环效应、群体内偏见)。</p>
+</li>
+</ul>
+<h3 id="海王心里在想什么">「海王」心里在想什么？</h3>
+<p><a href="http://wufazhuce.com/question/3904">「海王」心里在想什么？</a></p>
+<ul>
+<li>找不到自我价值的情况下，很容易走这条路，急需通过这种方式来确定自我价值，来证明我是值得被爱的。</li>
+<li>刚被抛弃的时候很难去相信别人，也没办法投入，只想玩弄别人的感情，让别人也经历一次心碎。我会和他们保持暧昧，享受他们的喜欢和对我的殷勤，但不会动心。</li>
+<li>也不用担心一对多会聊岔，他们彼此知道对方的存在，我甚至能让他们在“谁对我更好”这个问题上卷起来。比如看似无意地透露有男孩子今天给我点了外卖，买了鲜花什么的。另一个就会说你不能收他的东西，你想要什么我给你买。<strong>激发良性竞争，让他们有危机感，知道我是很受欢迎的。</strong></li>
+<li>女人通过这种方式，可以在什么都不做就能立于优越地位的男人身上找到“sense of power”，因为知道自己是男性的欲望对象，所以可以利用这种身份反过来去支配男性。在这个过程中能体验到一种权力和掌控感。</li>
+</ul>
+<p>哪些正在退出大陆的海外服务们</p>
+<p>「科技乱炖」2022 年 6 月 5 日</p>
+<ul>
+<li>如果把一切都归于监管问题</li>
+</ul>
+<p>但是本期说到最后依然还是没有说出这些海外服务退出中国的真正原因。</p>
+<h3 id="为什么要做预测">为什么要做预测？</h3>
+<p>玻璃晴朗：</p>
+<p>生涯迷思 day 1.1 为什么我试着做预测？</p>
+<p>对于一名想扎根于一个行业或是领域，通过创造价值来追寻个人意义感的人，一直去紧盯行业，不断去重新确认自己的生态位是十分重要的。</p>
+<p>因为不同的行业逻辑不一样，如果身处于作者行业，教师行业，我只要不断打磨我自身的核心价值，大概就可以拥有更加稳固的生态位（大概）。</p>
+<p>在一个确定的未来，完全是前沿，不断更新迭代的行业，深入钻研某一种技术不是不可以，但是如果只是因为自己刚开始做的是这个，所以就一直做下去，那就错的离谱了。</p>
+<p>先换个角度看。在投资方面懂行的朋友，会花时间去了解一家公司的价值几何、值不值得投资，然后持仓甚至重仓，耐得住的人可能会跨越时间持有一个大周期。</p>
+<p>把钱换成时间就可以理解了。我的未来，我的时间，都是需要我去投资的，如果我要重仓，那我必然需要确定好，我重仓的这个“标的”是值得的，跨越周期的持有也是值得的。</p>
+<p>所以我观察、思考、分析的结果都会是十分认真的。因为我重仓几十万去一个投资标的，亏损了，钱我还可以再赚，不至于影响我的生活质量。但是重仓时间去投身于一个领域，时间没了就是没了，年龄越大，就不得不接受现实，至少身体上的现实就是必须得接受的。</p>
+<p>我可能会试着去预测我 50 岁前的行业动向，二十年的维度。但是结果而言，未来十年应该就可以体现出来对错，趋势已经确定下来了。</p>
+<p>当然，我会不断朝前去看，去确定对错，动态调整我的预测结果—这没什么不合适的，人本就不该害怕去修正，抛弃掉过去的一部分错误观点没什么好怕的。持续预测，动态调整个人的规划，这样是可以不断对产业增进更深层次的理解。</p>
+<p>最重点的是，持续、滚动地预测。我当然不是为了当一名预言家，而是要把预测的结果落实到自己的生涯规划以及策略当中去。怎么去想，接下来是怎么去做，十分重要。</p>
+<p>这就是昨天凌晨睡前我说的最后一句梁宁老师的那句话：不要用战术上的勤奋掩盖战略上的懒惰</p>
+<p>摘录</p>
+<ul>
+<li>重仓几十万去一个投资标的，亏损了，钱我还可以再赚，不至于影响我的生活质量。但是重仓时间去投身于一个领域，时间没了就是没了，年龄越大，就不得不接受现实，至少身体上的现实就是必须得接受的。</li>
+<li>持续、滚动地预测。动态调整我的预测结果，动态调整个人的规划。</li>
+</ul>
+<h3 id="努力与勤奋">努力与勤奋</h3>
+<p>勤奋是努力的山寨版。努力跟勤奋完全不在一个层面上。努力中可能包含勤奋的成分，但是对于努力而言更重要的是<strong>方向、方式、目的</strong>，而<strong>不仅仅在于时长和付出</strong>。勤奋的人往往也比较懒，不肯去真正努力，总是会以为着用高强度却简单的重复就能带来质变，以此掩盖他们回避问题实质的现实。</p>
+<h3 id="投资第-1-课投资是怎样赚钱的">投资第 1 课：投资是怎样赚钱的？</h3>
+<p><a href="https://www.youtube.com/watch?v=TH_CrR8tJpk&amp;lc=UgymjLA5D3anqh41m0Z4AaABAg">链接</a></p>
+<p>总结：投资指数</p>
+<h4 id="对话道哥">对话道哥</h4>
+<p>花了几十分钟阅读了一下极客时间的《对话道哥》。可能是由于访谈的原因，质量并不高。相比于耗子叔的《左耳听风》专栏。</p>
+<p>道哥所说的成功的道理与其他人的也都十分雷同，就是坚持。</p>
+<ul>
+<li>
+<p>很多人不知道我吃了多少苦。我总是跟人讲一些最简单的道理，但是大家不信，比如**我跟你说只要坚持就能成功，这句话绝对是对的。我是真的把这句话做到了，可能其他人没做到，我们的差别仅此而已。**但是我跟所有的人讲，有些人就是不信，或者表面信，内心其实也没信，发自内心地不信，他总以为有个捷径可以走。因为他可能捕风捉影地看到一些信息说别人走捷径，成功了，所以就总会幻想有这么一个捷径，其实别人吃苦的地方不会告诉你的，要么就是别人冒了风险，世界上的这个规律就是这样的。</p>
+</li>
+<li>
+<p>我确实是很少失败的一个人，当然反过来讲，后来我也明白怎么样才能保证你不会失败，<strong>就是别放弃，直到把它做成，你就永远不会失败</strong>。所以我有一个习惯就是带着成功离开，每一次变化的节点我都是选择<strong>带着成功离开</strong>，如果没有成功你就不要离开，这样你就会觉得你的人生都是成功的。如果在失败的节点选择了放弃，那就永远没有机会翻过来。这就意味着我们可能下一次还会放弃，同时也意味着可能我们的人生充满了失败。</p>
+</li>
+</ul>
+<h3 id="腾讯-13-年我所总结的-code-review-终极大法">腾讯 13 年，我所总结的 Code Review 终极大法</h3>
+<p>林强 腾讯云开发者</p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&amp;mid=2247657137&amp;idx=1&amp;sn=aaf08c399ee70dd5deb33b083da9f038&amp;chksm=eaa67ce1ddd1f5f7c722a5c7fb66abc690629387dd57825a54405ccd9a9ed8501ede3ddc2aa2#rd">原文链接</a></p>
+<ul>
+<li>基于 model 设计的代码，能更好地适应产品经理不断变更的需求。比如说，一个 calendar（日历）应用，随便想想，不要太简单！以“userid_date”为 key 记录一个用户的每日安排不就完成了么？只往前走一步，设计了一个任务，上限分发给 100w 个人，创建这么一个任务，是往 100w 个人下面添加一条记录？你得改掉之前的设计，换 db。再往前走一步，要拉出某个用户和某个人一起要参与的所有事务，是把两个人的所有任务来做 join？好像还行。如果是和 100 个人一起参与的所有任务呢？100 个人的任务来 join？不现实了吧。好，你引入一个群组 id，那么，你最开始的“userid_date”为 key 的设计，是不是又要修改和做数据迁移了？经常来一个需求，你就得把系统推翻重来，或者根本就只能拒绝用户的需求，这样的战斗力，还好意思叫自己工程师？你一开始就应该思考自己面对的业务领域，思考自己的日历应用可能的模型边界，把可能要做的能力都拿进来思考，构建一个 model，设计一套通用的 store 层接口，基于通用接口的逻辑代码。当产品不断发展，就是不停往模型里填内容，而不是推翻重来。思考模型边界，构建模型细节，就是两个很重要的能力，也是绝大多数产品经理不具备的能力。</li>
+</ul>
+<p>代码原则</p>
+<p>对于代码格式规范，100%严格执行，眼中容不得一点沙。</p>
+<p>▶︎ 文件绝不能超过 800 行，超过一定要思考怎么拆文件。工程思维，就在于拆文件的时候积累。</p>
+<p>▶︎ 函数对决不能超过 80 行，超过一定要思考怎么拆函数，思考函数分组，层次。工程思维，就在于拆文件的时候积累。</p>
+<p>▶︎ 代码嵌套层次不能超过 4 层，超过了就得改。多想想能不能 early return。工程思维，就在于拆文件的时候积累。</p>
+<h3 id="经济学人网站付费文章破解">经济学人网站付费文章破解</h3>
+<p><a href="https://weibo.com/1176117365/4945786737002043">原博链接</a></p>
+<p>原理：网站全文发送到前端后，前端使用 js 隐藏掉部分内容。</p>
+<p>通过在该网站禁用 js 可以查看全部内容。</p>
+<h2 id="资源">资源</h2>
+<h3 id="国外技术博客汇集工具engblogs">国外技术博客汇集工具「engblogs」</h3>
+<p>将 506 个工程师的博客的 RSS 给订阅起来，将每天有更新的自动同步到网站上（ TW93 推荐 ）</p>
+<h3 id="clean-code-javascript">clean-code-javascript</h3>
+<p><a href="https://github.com/ryanmcdermott/clean-code-javascript">链接</a></p>
+<p>一份关于如何在 JavaScript 中编写可读性强、可重用性高且易于重构的软件的指南。非常适合前端初学者去全部读和写一遍。（ TW93 推荐 ）</p>
+<h4 id="eartrainx">EarTrainX</h4>
+<p><a href="https://www.eartrainx.com/">链接</a></p>
+<p><img src="/Users/huyixi/Desktop/bg2023091102.webp" alt="bg2023091102"></p>
+<p>该网站提供音乐初学者的各种听音练习，训练辨识旋律的能力。（<a href="https://github.com/ruanyf/weekly/issues/3467">@xzzxy0413</a> 投稿，阮一峰周刊）</p>
+<h4 id="echart-社区">EChart 社区</h4>
+<ul>
+<li>
+<p><a href="https://www.makeapie.cn/">make a pie</a></p>
+</li>
+<li>
+<p><a href="http://ppchart.com/#/">ppchart</a></p>
+</li>
+</ul>
+<h2 id="说说">说说</h2>
+<ul>
+<li>
+<p>我不知道为什么在回复中有很多人在嘲笑老罗的手机事业失败了。做生意当然有赚有赔，而事实上十个生意有九个是失败的，失败有什么值得嘲笑的呢？我在 2010 年时曾在芝加哥短暂地经营一家舞蹈的公司，确切地说是入股+合作，两年之后也倒闭了，血本无归。可是我并不后悔，我学习到了很多东西，做了很多在我看来非常有意义的事情，那是绝大多数人完全没有勇气去尝试的。我从来没有懊恼过这个失败的经历，我还兴致勃勃地跟很多朋友分享我的这份失败经历，他们中没有任何人觉得我是个失败者（起码没有当面跟我说）。<strong>失败真的没什么，真正令人沮丧的是，一辈子什么都没有尝试过。</strong> - <a href="https://twitter.com/NodYoung">Nod Young</a></p>
+<p><a href="https://twitter.com/NodYoung/status/1698892746327822718?s=20">原文链接</a></p>
+</li>
+<li>
+<p>从根本上摆脱焦虑，放下妄想是最重要的一步。 不妄想一劳永逸，也不妄想一步登天。不妄想挣脱劳作，反而会更自由。活着一天，就领取一天的任务，要是每天都有一点进步，那就更开心了。 在这样的平静下，胜率其实一直在增加。</p>
+</li>
+<li>
+<p>不要把每件事都看得太重，人都有弱点，这些弱点可能会导致我们做出错误的决策。修身齐家治国平天下，修身的重要性不亚于技术。有些非常优秀的人会选择从好的大学中退学，这不是因为他们傲慢，而是因为他们有更远大的目标。计划与未来是两回事，长期计划并不意味着你可以预知未来，但它可以帮助你在混沌中找到方向。在制定、执行和回顾计划的过程中，我们有机会暂停，看看是否有些重要的事情被遗漏了。如何更好地发现和了解自己？第一种方法是回顾过去，寻找造就今日自己的原因，记录下自己的成长经历。读一些好书，如《被讨厌的勇气》，也可以帮助你换个角度看待自己。不要把每件事都看得太重，人都有弱点，这些弱点可能会导致我们做出错误的决策。修身齐家治国平天下，修身的重要性不亚于技术。有些非常优秀的人会选择从好的大学中退学，这不是因为他们傲慢，而是因为他们有更远大的目标。计划与未来是两回事，长期计划并不意味着你可以预知未来，但它可以帮助你在混沌中找到方向。在制定、执行和回顾计划的过程中，我们有机会暂停，看看是否有些重要的事情被遗漏了。如何更好地发现和了解自己？第一种方法是回顾过去，寻找造就今日自己的原因，记录下自己的成长经历。读一些好书，如《被讨厌的勇气》，也可以帮助你换个角度看待自己。</p>
+</li>
+<li>
+<p>如何防止自己的小孩沉迷游戏?</p>
+<p>知乎高票回答:</p>
+<p>答者是一位游戏策划，他的做法是让自己的小孩接触高质量游戏，提高刺激國值，从而不再对市面上粗制滥造的圈钱游戏感冒。答者说很多家长自己都不了解游戏却要从专业的游戏开发者手里把孩子抢回来，这基本等于白扯</p>
+</li>
+<li>
+<p>在一个信息爆炸却多半无用的世界，清晰的见解就成了一种力量。 - 一个</p>
+</li>
+<li>
+<p>不要在疲劳的时候写代码。敬业和专业精神，更多地体现在你的纪律性，而不是体现在投入的时间。</p>
+<p>&ndash; <a href="https://medium.com/@Fcmam5/trying-to-become-a-better-developer-by-learning-more-about-aviation-5241e7092f7e">Robert C. Martin</a>（鲍勃大叔），《Clean Coder》的作者</p>
+</li>
+<li>
+<p>2022 年 11 月，OpenAI 发布了 ChatGPT，突然之间就引发了人们从未见过的技术爆炸，图灵测试成为历史，搜索引擎成为濒临灭绝的物种，任何大学论文都不再可信，没有工作是安全的，没有什么科学问题是一成不变的。</p>
+<p>&ndash; <a href="https://www.wired.com/story/what-openai-really-wants/">《OpenAI 真正想要什么》</a></p>
+</li>
+<li>
+<p>网页设计师的一个巨大错误，就是以为用户会仔细阅读页面。但是实际上，用户不阅读，只是扫描页面。</p>
+<p>因为大多数用户只想完成某件事，而且是快速完成，不想了解任何不必要的内容。</p>
+<p>&ndash; <a href="https://adplist.substack.com/p/10-most-expensive-design-mistakes">《10 个最昂贵的设计错误》</a></p>
+</li>
+<li>
+<p>&ldquo;真正有效的工作方式，不是铁人三项或马拉松，比拼谁坚持的时间长，而是短跑，当机会来临的时候冲刺，平时注意健康和休息。&rdquo;</p>
+</li>
+</ul>
+
+  
+
+</article>
+
+
+        </main>
+      </div>
+      
+    </div>
+
+  </body>
+
+</html>

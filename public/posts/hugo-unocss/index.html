@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico" />
+<title>Hugo UnoCSS | huyixi</title>
+
+
+<link rel="stylesheet" href="/css/main.min.1195bb49aae3ee90c6e80002c54db91d6053f2d88f8ad0cab5c166172565b7d7.css"  integrity="sha256-EZW7Sarj7pDG6AACxU25HWBT8tiPitDKtcFmFyVlt9c=" >
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body m-auto>
+    <div p-5 m-auto sm:mt-20 max-w-screen-md>
+      <div sm:flex sm:gap-20>
+        <header mb-6>
+          
+<nav sticky top-5 flex flex-justify-between mb-4 sm:flex-col sm:flex-items-end sm:w-20>
+    
+      <h1 inline-block cursor-auto> 
+        <a href="/"><img src="/images/avatar.jpg" alt="avatar" ml-2 w12 h12 rd-2></a>
+      </h1>
+    
+    <ul flex sm:flex-col sm:flex-items-end sm:mt-10>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/journal/">Journal</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/projects/">Projects</a>
+    </li>
+    <li flex items-end cursor-auto>
+      <a hover:bg-zinc-100 rounded-xl p-1 items-center hover:text-zinc-900 inline-flex text-zinc-400 href="/about/">About</a>
+    </li>
+    </ul>
+</nav>
+
+
+        </header>
+        <main px-2 overflow-hidden>
+          
+<article prose>
+
+<h1 text-3xl font-extrabold mt-0>Hugo UnoCSS</h1>
+
+  
+  
+
+  <time datetime="2024-01-06T17:28:47&#43;08:00" inline-block z-10 mr-2 inline-flex h-7 items-center bg-zinc-100 rounded-lg px-2 text-sm >January 6, 2024</time>
+
+  <p>这个网站使用了 hugo 静态网站生成器，CSS 方面使用 UnoCSS。以下记录了如何在 hugo 中使用 UnoCSS。</p>
+<ol>
+<li>将主题文件的 CSS 样式引入修改如下：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{- $unocss := resources.Match &#34;css/*.css&#34; | resources.Concat &#34;css/main.css&#34; -}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{{- if hugo.IsProduction }}
+</span></span><span style="display:flex;"><span>{{ $unocss = $unocss | minify | fingerprint }}
+</span></span><span style="display:flex;"><span>{{ end -}}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $unocss.RelPermalink }}&#34;</span> <span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#a6e22e">if</span> <span style="color:#a6e22e">hugo</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#a6e22e">IsProduction</span> <span style="color:#960050;background-color:#1e0010">}}</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ $unocss.Data.Integrity }}&#34;</span> <span style="color:#960050;background-color:#1e0010">{{</span> <span style="color:#a6e22e">end</span> <span style="color:#960050;background-color:#1e0010">}}</span>&gt;
+</span></span></code></pre></div><p>注意：
+代码将会获取你的 <code>assets/css</code> 文件夹中的所有 CSS 文件。如果你更喜欢将 CSS 文件放置在其他文件夹或者放置在嵌套的文件夹中，则需要修改第一行代码。另外，生成的 main.css 文件是存储在 hugo 内存中的，所以无法查看到。</p>
+<ol start="2">
+<li>安装 UnoCSS 依赖，这里安装你需要的即可</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install --save-dev @unocss/cli @unocss/preset-typography @unocss/preset-uno @unocss/preset-wind
+</span></span></code></pre></div><ol start="3">
+<li>创建 <code>uno.config.ts</code> 并导入预设</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">defineConfig</span>, <span style="color:#a6e22e">presetUno</span> } <span style="color:#66d9ef">from</span> <span style="color:#e6db74">&#39;unocss&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">defineConfig</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">presets</span><span style="color:#f92672">:</span> [
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">presetUno</span>(),
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">shortcuts</span><span style="color:#f92672">:</span> []
+</span></span><span style="display:flex;"><span>})
+</span></span></code></pre></div><ol start="4">
+<li>添加运行脚本到 package.json。</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#e6db74">&#34;scripts&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;uno-dev&#34;</span>: <span style="color:#e6db74">&#34;unocss \&#34;layouts/**/**/*.html\&#34; --watch -o ./assets/css/uno.css&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;uno-build&#34;</span>: <span style="color:#e6db74">&#34;unocss \&#34;layouts/**/**/*.html\&#34; -o ./assets/css/uno.css&#34;</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span></code></pre></div><p>之后运行 <code>npm run uno-dev</code> 应该就可以看到 UnoCSS 正确导入了。</p>
+<p>另外：
+如果想一行命令同时运行 <code>hugo server</code> 和 <code>unocss</code> 的话可以使用 <code>concurrently</code>，并在脚本中添加</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#e6db74">&#34;start&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;concurrently \&#34;pnpm:dev\&#34; \&#34;pnpm:uno-dev\&#34;&#34;</span>
+</span></span></code></pre></div><p>之后，运行 <code>npm run start</code> 便可使用一条命令在一个窗口中运行这两个命令了。</p>
+<p>整个导入的过程其实还是踩了不少坑。例如：</p>
+<ol>
+<li>获取 css 文件的时候，参考链接中是将 css 文件放置在 <code>css/uno/main.css</code> 路径下，但是使用 <code>resources.Match &quot;css/*.css&quot; </code> 是无法获取到这个文件的，所以如果你也喜欢将它放置在子目录下，需要将这行代码修改成：<code>resources.Match &quot;css/**/*.css&quot; </code>，但是如果只修改成 <code>resources.Match &quot;css/**/*.css&quot; </code>，hugo 又只会获取 css 所有子文件夹中的 css 文件，css 文件夹下的 css 文件是无法获取到的（这里虽然使用了 <code>**</code> 通配符，但是是没有作用的）。</li>
+<li>参考链接中使用的版本较低，<code>unocss/preset-typography</code> 现在需要使用 <code>@unocss/preset-typography</code> 来安装。</li>
+<li>参考链接中也没有 <code>scripts</code>，这还是在作者提供的 <code>hugo + UnoCSS</code> 模板中找到的。不过这一步由于之前使用 TailwindCSS 的时候在这里踩过坑，所以还算顺利。</li>
+</ol>
+<p>参考：https://github.com/unocss/unocss/discussions/555</p>
+
+  
+
+</article>
+
+
+        </main>
+      </div>
+      
+    </div>
+
+  </body>
+
+</html>
