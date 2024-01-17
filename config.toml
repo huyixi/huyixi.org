@@ -31,3 +31,8 @@ weight = 40
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  posts = ["HTML", "RSS"]
+  journal = ["HTML", "RSS"]
