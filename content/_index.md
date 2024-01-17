@@ -21,4 +21,5 @@
 ## Contact
 
 欢迎与我联系  
-📮 Email: [hi@huyixi.com](mailto:hi@huyixi.com)
+📮 Email: [hi@huyixi.com](mailto:hi@huyixi.com)  
+📰 [RSS](/index.xml)
