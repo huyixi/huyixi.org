@@ -9,7 +9,6 @@ defaultContentLanguage = "zh"
     email = 'hi@huyixi.com'
     name = 'Hu Yixi'
 
-
 [[menus.main]]
 name = 'Posts'
 pageRef = '/posts'
@@ -37,5 +36,3 @@ weight = 40
 
 [outputs]
   home = ["HTML", "RSS"]
-  posts = ["HTML", "RSS"]
-  journal = ["HTML", "RSS"]
