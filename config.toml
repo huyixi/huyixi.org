@@ -2,10 +2,14 @@ baseURL = 'https://huyixi.org/'
 title = 'huyixi'
 theme = 'white'
 copyright = '© 2024 Hu Yixi'
+
 [params]
   [params.author]
     email = 'hi@huyixi.com'
     name = 'Hu Yixi'
+
+[languages]
+  defaultContentLanguage = "zh"
 
 [[menus.main]]
 name = 'Posts'
