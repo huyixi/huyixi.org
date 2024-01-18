@@ -4,8 +4,16 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify({
-
-    }),presetTypography()
+    }),
+    presetTypography({
+      cssExtend: {
+        'blockquote': {
+          'border-left': '2px solid #ccc',
+          'padding-left': '0.5rem',
+          'font-style': 'none',
+        }
+      }
+    })
   ],
   shortcuts: []
 })
