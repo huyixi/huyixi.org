@@ -1,5 +1,5 @@
 ---
-title: "Hugo UnoCSS"
+title: "在 hugo 中使用 UnoCSS"
 subtitle: ""
 date: 2024-01-06T17:28:47+08:00
 lastmod: 2024-01-06T17:28:47+08:00
