@@ -10,29 +10,24 @@ defaultContentLanguage = "zh"
     name = 'Hu Yixi'
 
 [[menus.main]]
-name = 'Journal'
-pageRef = '/journal'
+name = 'Posts'
+pageRef = '/posts'
 weight = 10
 
 [[menus.main]]
-name = 'Read'
-pageRef = '/read'
+name = 'Journal'
+pageRef = '/journal'
 weight = 20
-
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 30
 
 [[menus.main]]
 name = 'Projects'
 pageRef = '/projects'
-weight = 40
+weight = 30
 
 [[menus.main]]
 name = 'About'
 pageRef = '/about'
-weight = 50
+weight = 40
 
 [module]
   [module.hugoVersion]
