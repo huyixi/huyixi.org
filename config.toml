@@ -10,19 +10,19 @@ defaultContentLanguage = "zh"
     name = 'Hu Yixi'
 
 [[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
+name = 'Journal'
+pageRef = '/journal'
 weight = 10
 
 [[menus.main]]
-name = 'Journal'
-pageRef = '/journal'
-weight = 30
+name = 'Read'
+pageRef = '/read'
+weight = 20
 
 [[menus.main]]
-name = 'Literature'
-pageRef = '/literature'
-weight = 20
+name = 'Posts'
+pageRef = '/posts'
+weight = 30
 
 [[menus.main]]
 name = 'Projects'
