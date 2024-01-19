@@ -1,5 +1,5 @@
 ---
-title: "Get Time"
+title: "Raycast 插件：Get Time"
 subtitle: "Raycast 插件：快速获取指定格式的当前时间"
 date: 2023-10-22T23:01:03+08:00
 lastmod: 2023-10-22T23:01:03+08:00
