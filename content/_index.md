@@ -22,4 +22,5 @@
 
 欢迎与我联系  
 📮 Email: [hi@huyixi.com](mailto:hi@huyixi.com)  
+🧑‍💻 我的 [GitHub](github.com/huyixi)  
 📰 通过 [RSS](/index.xml) 订阅这个博客
