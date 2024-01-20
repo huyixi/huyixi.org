@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .hr-solid-content {
   color: #71717a;
   border: 0;

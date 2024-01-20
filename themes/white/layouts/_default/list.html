@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{/*  {{ define "main" }}
   {{ .Content }}
   {{ $currentYear := "" }}
   {{ $firstHR := true }}
@@ -15,6 +15,30 @@
         {{ end }}
       {{ end }}
     {{ end }}
-    <h2 hover:text-indigo-400><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <li hover:text-indigo-400><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+{{ end }}  */}}
+
+{{ define "main" }}
+  {{ .Content }}
+  {{ $currentYear := "" }}
+  {{ $firstYear := true }}
+  {{ range .Pages }}
+    {{ $postYear := .Date.Format "2006" }}
+    {{ if ne $postYear $currentYear }}
+      {{ $currentYear = $postYear }}
+      {{ if not $firstYear }}
+        </ul>
+      {{ end }}
+      <hr class="hr-solid-content" data-content="{{ $currentYear }}">
+      <ul>
+      {{ $firstYear = false }}
+    {{ end }}
+    <li hover:text-indigo-400><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+  {{ if not $firstYear }}
+      </ul>
   {{ end }}
 {{ end }}
+
+
