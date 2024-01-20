@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "hugo server -D",
     "white-theme-dev": "cd themes/white && pnpm run uno-dev",
-    "d": "concurrently \"~/i/utils/hugo-server.sh\" \"pnpm run white-theme-dev\" \"open -a 'Google Chrome' http://localhost:1313/\""
+    "d": "concurrently \"~/i/utils/hugo-server.sh\" \"pnpm run white-theme-dev\""
   },
   "keywords": [],
   "author": "",
