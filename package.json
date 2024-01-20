@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "hugo server -D",
     "white-theme-dev": "cd themes/white && pnpm run uno-dev",
-    "start": "concurrently \"pnpm:dev\" \"pnpm:white-theme-dev\""
+    "hugo-server": "",
+    "d": "concurrently \"pnpm:dev\" \"pnpm:white-theme-dev\" & hs"
   },
   "keywords": [],
   "author": "",
