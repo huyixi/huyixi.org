@@ -20,8 +20,8 @@ pageRef = '/journal'
 weight = 20
 
 [[menus.main]]
-name = 'Literature'
-pageRef = '/literature'
+name = 'Projects'
+pageRef = '/projects'
 weight = 30
 
 [[menus.main]]
