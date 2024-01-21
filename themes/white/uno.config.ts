@@ -25,8 +25,7 @@ export default defineConfig({
           'overflow-wrap': 'break-word',
         },
         'ul li::before': {
-          'content': "\u2022",
-          'color': '#f6a59e',
+          'color': 'rgb(129 140 248)',
           'font-weight': 'bold',
           'display': 'inline-block',
           'width': '1em',

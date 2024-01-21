@@ -25,9 +25,11 @@ a {
   color: #00e;
   text-decoration: none;
 }
-
-li {
+ul li {
   list-style: none;
+}
+article ul li::before {
+  content: "\2022";
 }
 
 .hr-solid-content {
