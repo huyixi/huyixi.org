@@ -136,7 +136,7 @@ return M
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SyR1BX.jpg)
 其实周刊生活向的内容，多发点照片还可以帮自己以后更好地回忆~
 
-## 2024-01-20 小总结 Ò
+## 2024-01-20 小总结
 
 今天状态不是很好，一直在等我的 Marshall。催了顺丰客服一万次。
 

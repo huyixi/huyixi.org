@@ -20,8 +20,17 @@ export default defineConfig({
         },
         'pre code': {
           'font-size': '12px',
+          'color': '#333',
           'white-space': 'pre-wrap',
           'overflow-wrap': 'break-word',
+        },
+        'ul li::before': {
+          'content': "\u2022",
+          'color': '#f6a59e',
+          'font-weight': 'bold',
+          'display': 'inline-block',
+          'width': '1em',
+          'margin-left': '-1em', 
         }
       }
     })
