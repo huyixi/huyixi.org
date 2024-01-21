@@ -33,8 +33,10 @@ export default defineConfig({
           'margin-left': '-1em', 
         },
         'p img': {
-          'border-radius': '2px',
-          'margin': '20px 0',
+          'margin': '0 auto',
+          'border': '1px solid #eee',
+          'border-radius': '8px',
+          'box-shadow': '0 2px 4px #efefef',
         }
       }
     })
