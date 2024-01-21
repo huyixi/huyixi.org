@@ -13,7 +13,7 @@ summary:
 
 1. 将主题文件的 CSS 样式引入修改如下：
 
-```html
+```
 {{- $unocss := resources.Match "css/*.css" | resources.Concat "css/main.css" -}}
 
 {{- if hugo.IsProduction }}
@@ -27,13 +27,13 @@ summary:
 
 2. 安装 UnoCSS 依赖，这里安装你需要的即可
 
-```bash
+```
 npm install --save-dev @unocss/cli @unocss/preset-typography @unocss/preset-uno @unocss/preset-wind
 ```
 
 3. 创建 `uno.config.ts` 并导入预设
 
-```typescript
+```
 import { defineConfig, presetUno } from 'unocss'
 
 export default defineConfig({
@@ -46,7 +46,7 @@ export default defineConfig({
 
 4. 添加运行脚本到 package.json。
 
-```json
+```
 "scripts": {
     "uno-dev": "unocss \"layouts/**/**/*.html\" --watch -o ./assets/css/uno.css",
     "uno-build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css"
@@ -58,7 +58,7 @@ export default defineConfig({
 另外：
 如果想一行命令同时运行 `hugo server` 和 `unocss` 的话可以使用 `concurrently`，并在脚本中添加
 
-```json
+```
 "start": "concurrently \"pnpm:dev\" \"pnpm:uno-dev\""
 ```
 之后，运行 `npm run start` 便可使用一条命令在一个窗口中运行这两个命令了。
