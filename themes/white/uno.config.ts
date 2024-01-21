@@ -31,6 +31,10 @@ export default defineConfig({
           'display': 'inline-block',
           'width': '1em',
           'margin-left': '-1em', 
+        },
+        'p img': {
+          'border-radius': '2px',
+          'margin': '20px 0',
         }
       }
     })
