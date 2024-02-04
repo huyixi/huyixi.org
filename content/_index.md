@@ -14,7 +14,7 @@
 💻 正在开发：huyixi.com，我正尝试将这个网站搭建成我的个人品牌宣传网站。  
 🤩最近在追：[坂本 龍一](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto)、[Owen](https://www.owenyoung.com)、[枫影 Justin Yan](https://justinyan.me)  
 📖 最近在读：《邓小平时代》、《我还能看到多少次满月升起》、《音乐即自由》  
-🎵 最近在听： 坂本龙一、Lana Del Rey、BADBADNOTGOOD
+🎵 最近在听： 坂本龙一、Lana Del Rey、BADBADNOTGOOD  
 🔎 正在研究：Astro、uniapp、uview、stylus    
 
 ## Contact
