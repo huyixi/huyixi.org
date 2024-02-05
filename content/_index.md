@@ -11,11 +11,11 @@
 
 👀看看我最近在做什么：  
 💼 正在找工作……    
-💻 正在开发：huyixi.com，我正尝试将这个网站搭建成我的个人品牌宣传网站。  
+💻 正在开发：Web2Book-crawlee。我正在开发基于 crawlee 的 Web2Book 项目，目的是提供一个比上一个版本更为便捷的爬取方式。    
 🤩最近在追：[坂本 龍一](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto)、[Owen](https://www.owenyoung.com)、[枫影 Justin Yan](https://justinyan.me)  
-📖 最近在读：《邓小平时代》、《我还能看到多少次满月升起》、《音乐即自由》  
-🎵 最近在听： 坂本龙一、Lana Del Rey、BADBADNOTGOOD  
-🔎 正在研究：Astro、uniapp、uview、stylus    
+📖 最近在读：《深入理解计算机系统》、《Staring at the Sun》、《可能性的艺术》 - 刘瑜  
+🎵 最近在听：《Born to Die》 - Lana Del Rey、坂本龙一、BADBADNOTGOOD  
+🔎 正在研究：crawlee, Astro, uniapp, uview, stylus    
 
 ## Contact
 
