@@ -1,3 +1,4 @@
+cd ~/i/huyixi.org/
 # Ask user for content type
 echo "Enter content type (e.g., Weekly(W), Post(P), Project(Proj)):"
 read content_type
@@ -26,11 +27,11 @@ case $content_type in
         archetype_name="project"
         ;;
     post)
-        content_path="post/$title.md"
+        content_path="posts/$title.md"
         archetype_name="post"
         ;;
     p)
-        content_path="post/$title.md"
+        content_path="posts/$title.md"
         archetype_name="post"
         ;;
     *)
