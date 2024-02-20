@@ -124,87 +124,142 @@ summary: 我的 2023 年终总结
 
 ## 40 questions
 
-What did you do this year that you’d never done before?
-写博客、搭建个人网站。
-Did you keep your new year’s resolutions?
-去年没有设立新年愿望。Did anyone close to you give birth?
-似乎没有。
-Did anyone close to you die?
-似乎也没有。
-What cities/states/countries did you visit?
-提过了，在旅游中。
-What would you like to have next year that you lacked this year?
-很多东西，参考 Flag。
-What date(s) from this year will remain etched upon your memory, and why?
-失恋，领到的第一份工资。
-What was your biggest achievement of the year?
-几个自己的网站。
-What was your biggest failure?
-迷惘。
-What other hardships did you face?
-钱不够花。
-Did you suffer illness or injury?
-小病，可能是甲流，24 年年初发烧了几天。
-What was the best thing you bought?
-上面的年度设备中也有提到。
-Whose behavior merited celebration?
+1. What did you do this year that you’d never done before?
+   - 写博客、搭建个人网站。
 
-Whose behavior made you appalled?
+2. Did you keep your new year’s resolutions?
+   - 去年没有设立新年愿望。
 
-Where did most of your money go?
-房租，购买电子产品，旅游。
-What did you get really, really, really excited about?
+3. Did anyone close to you give birth?
+   - 似乎没有。
 
-What song will always remind you of this year?
+4. Did anyone close to you die?
+   - 似乎也没有。
 
-Compared to this time last year, are you: happier or sadder? Thinner or fatter? Richer or poorer?
-更悲伤了吧。去年还是个学生，懵懵懂懂，无知地活着。今年突然要面对生存压力，突然想了很多以前根本不会想的事情。
-身材上保持健康，没有更瘦或更胖。
-钱么，好像跟以前差不多。
-What do you wish you’d done more of?
-思考，活着的理由。
-What do you wish you’d done less of?
-少熬夜，更健康的作息。
-How are you spending the holidays?
-读书、写代码、音乐节+旅游
-Did you fall in love this year?
-没有。还恢复单身了。
-Do you hate anyone now that you didn’t hate this time last year?
-没有。
-What was your favorite show?
-依然是《乐队的夏天》。但是我电视节目看的比较少。另外电影《河边的故事》也值得推荐。
-What was the best book you read?
-《金榜题名之后：大学生出路分化之谜》
-What was your greatest musical discovery of the year?
-没有最喜欢的歌曲，但是喜欢坂本龙一和 my little airport。
-What was your favorite film?
-《河边的故事》。没想到下面还有最爱的电影。跟上面的重复了。
-What was your favorite meal?
+5. What cities/states/countries did you visit?
+   - 提过了，在旅游中。
 
-What did you want and get?
-除了下面这项，其他想要的好像都得到了。
-What did you want and not get?
-更好的工作。
-What did you do on your birthday?
-嗯，今年恢复单身之后就没有生日了。生日那天好像是工作日，应该是有点了好吃的外卖吧。明年要记得自己给自己庆祝一下。
-What one thing would have made your year immeasurably more satisfying?
-我不知道。
-How would you describe your personal fashion this year?
-懒狗，懒得挑衣服，优衣库一把梭。
-What kept you sane?
-阅读、看一些厉害的人的博客/Twitter。例如 Tw93、Justin Yan
-Which celebrity/public figure did you admire the most?
-有很多。
-What political issue stirred you the most?
-无。
-Who did you miss?
-天天都想跟我妹呆一起玩 🤣，没变过。
-Who was the best new person you met?
-今年认识与遇见了很多人，但是能成为很知心的朋友好像没有。
-What valuable life lesson did you learn this year?
+6. What would you like to have next year that you lacked this year?
+   - 很多东西，参考 Flag。
 
-What is a quote that sums up your year?
-迷惘。
+7. What date(s) from this year will remain etched upon your memory, and why?
+   - 失恋，领到的第一份工资。
+
+8. What was your biggest achievement of the year?
+   - 几个自己的网站。
+
+9. What was your biggest failure?
+   - 迷惘。
+
+10. What other hardships did you face?
+
+- 钱不够花。
+
+11. Did you suffer illness or injury?
+
+- 小病，可能是甲流，24 年年初发烧了几天。
+
+12. What was the best thing you bought?
+
+- 上面的年度设备中也有提到。
+
+13. Whose behavior merited celebration?
+
+14. Whose behavior made you appalled?
+
+15. Where did most of your money go?
+
+- 房租，购买电子产品，旅游。
+
+16. What did you get really, really, really excited about?
+
+17. What song will always remind you of this year?
+
+18. Compared to this time last year, are you: happier or sadder? Thinner or fatter? Richer or poorer?
+
+- 更悲伤了吧。去年还是个学生，懵懵懂懂，无知地活着。今年突然要面对生存压力，突然想了很多以前根本不会想的事情。
+- 身材上保持健康，没有更瘦或更胖。
+- 钱么，好像跟以前差不多。
+
+19. What do you wish you’d done more of?
+
+- 思考，活着的理由。
+
+20. What do you wish you’d done less of?
+
+- 少熬夜，更健康的作息。
+
+21. How are you spending the holidays?
+
+- 读书、写代码、音乐节+旅游。
+
+22. Did you fall in love this year?
+
+- 没有。还恢复单身了。
+
+23. Do you hate anyone now that you didn’t hate this time last year?
+
+- 没有。
+
+24. What was your favorite show?
+
+- 依然是《乐队的夏天》。但是我电视节目看的比较少。另外电影《河边的故事》也值得推荐。
+
+25. What was the best book you read?
+
+- 《金榜题名之后：大学生出路分化之谜》
+
+26. What was your greatest musical discovery of the year?
+
+- 没有最喜欢的歌曲，但是喜欢坂本龙一和 my little airport。
+
+27. What was your favorite film?
+
+- 《河边的故事》。没想到下面还有最爱的电影。跟上面的重复了。
+
+28. What was your favorite meal?
+
+29. What did you want and get?
+
+- 除了下面这项，其他想要的好像都得到了。
+
+30. What did you want and not get?
+
+- 更好的工作。
+
+31. What did you do on your birthday?
+
+- 嗯，今年恢复单身之后就没有生日了。生日那天好像是工作日，应该是有点了好吃的外卖吧。明年要记得自己给自己庆祝一下。
+
+32. What one thing would have made your year immeasurably more satisfying?
+
+- 我不知道。
+
+33. How would you describe your personal fashion this year?
+
+- 懒狗，懒得挑衣服，优衣库一把梭。
+
+34. What kept you sane?
+
+- 阅读、看一些厉害的人的博客/Twitter。例如 Tw93、Justin Yan
+
+35. Which celebrity/public figure did you admire the most?
+
+36. What political issue stirred you the most?
+
+37. Who did you miss?
+
+- 天天都想跟我妹呆一起玩 🤣，没变过。
+
+38. Who was the best new person you met?
+
+- 今年认识与遇见了很多人，但是能成为很知心的朋友好像没有。
+
+39. What valuable life lesson did you learn this year?
+
+40. What is a quote that sums up your year?
+
+- 迷惘。
 
 ## 年度电子设备
 
@@ -249,5 +304,5 @@ What is a quote that sums up your year?
   - [ ] huyixi.org
   - [ ] huyixi.wiki（这个目前已经完成了）
 
-这篇年终总结拖更太久了，从 23 年年末最后几天开始动笔，偶尔上来添添一些笔墨，慢慢才有了成文（但是其实在我写这句话的时候，还有很多没有写的），明年应该 11 月就得开始动笔了。还有很多不完善还有很多想说的，明年的年终总结要更完善一点。
+这篇年终总结拖更太久了，从 23 年年末最后几天开始动笔，偶尔上来添添一些笔墨，慢慢才有了成文（但是其实在我写这句话的时候，还有很多没有写的），明年应该 11 月就得开始动笔了。还有很多不完善还有很多想说的，明年的年终总结要更完善一点。  
 最后成文于 2024-02-19 22:04:19。
