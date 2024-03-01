@@ -14,9 +14,9 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
 <nav sticky top-5 flex flex-justify-between mb-4 sm:flex-col sm:flex-items-end sm:w-20>
     {{ with $avatar }}
-      <h1 inline-block cursor-auto> 
+      <div inline-block cursor-auto>
         <a href="/"><img src="{{ $avatar.RelPermalink }}" alt="avatar" ml-2 w12 h12 rd-2></a>
-      </h1>
+      </div>
     {{ end }}
     <ul flex sm:flex-col sm:flex-items-end sm:mt-10>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}

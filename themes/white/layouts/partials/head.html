@@ -1,4 +1,4 @@
-<meta charset="utf-8">
+<meta name="description" content="huyixi's blog: Tech insights, personal musings, and literary explorations." />
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
