@@ -7,24 +7,23 @@ tags: [tutor]
 draft: false
 ---
 
->本文内容较长，更推荐在我的 wiki 网站进行阅读，这是本文的[链接](https://huyixi.wiki/计算机/Windows)。可以通过点击目录进行快速导航跳转。
-
+>本文内容较长，更推荐在我的 wiki 网站进行阅读，这是本文的[链接](https://huyixi.wiki/Windows)。可以通过点击目录进行快速导航跳转。
 > 前情提要：根据本人的多次装机历史记录而成，基本满足本人 Windows 装机需求。
 
 ## 系统安装
 
 ### 系统镜像下载网站
 
-- itellyou：https://msdn.itellyou.cn
-- itellyou新网站（主要下载系统镜像）：https://next.itellyou.cn/
+- itellyou：<https://msdn.itellyou.cn>
+- itellyou新网站（主要下载系统镜像）：<https://next.itellyou.cn/>
 
 ### 制作系统启动盘
 
 需要提前准备一个 16G 以上的 U 盘作为启动盘
 
-- rufus（Windows）官网地址：https://rufus.ie/en/
+- rufus（Windows）官网地址：<https://rufus.ie/en/>
 
-- UNetbootin（多平台）：https://unetbootin.github.io/
+- UNetbootin（多平台）：<https://unetbootin.github.io/>
 
 ### 进入 BIOS 界面将 U 盘设置为启动盘
 
@@ -34,7 +33,7 @@ draft: false
 
 Windows 系统激活参考教程：www.kms.pub
 
-```
+```markdown
 slmgr -ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D（该激活码为 Windows10 企业版激活码，不同系统版本使用不同的激活码，除本行外下面的命令都一样）
 
 slmgr -skms kms.03k.org
@@ -190,7 +189,7 @@ slmgr -dlv
 
 #### 早期版本的 Windows
 
-###### Windows 8.1
+##### Windows 8.1
 
 | 操作系统版本         | KMS 客户端产品密钥            |
 | :------------------- | :---------------------------- |
@@ -221,13 +220,13 @@ slmgr -dlv
 
 #### 推荐使用 Windows10 企业版 LTSC
 
-参考链接：https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys
+参考链接：<https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys>
 
 ### 检测系统
 
 如果是全新的电脑系统安装完毕后安装 **AIDA** 或者 **图吧工具箱** 测试系统是否能正常运行
 
-```
+```markdown
 AIDA64 Extreme：至尊版
 
 FUUJ1-E3YDB-HTDTK-2D894-4BVAQ
@@ -253,9 +252,9 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 3QRDD-KF6D6-J6D9V-IDPU4-3MJ45
 ```
 
-#### dll 缺失：
+#### dll 缺失
 
-下载缺失的 dll 文件后https://www.dll-files.com ，放置到 C:/System/Windows32/
+下载缺失的 dll 文件后<https://www.dll-files.com> ，放置到 C:/System/Windows32/
 
 #### Win11下“应用程序无法正确启动(0xc000007b)”解决方法
 
@@ -274,7 +273,7 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 防止每次安装软件或者修改系统设置时候弹出提醒窗口
 
 1. Win + R 打开运行
-2. 在输入窗口输入 `msconfig` 调出 系统配置 System Configuration Utility 
+2. 在输入窗口输入 `msconfig` 调出 系统配置 System Configuration Utility
 3. 点击上方的工具菜单 -> 找到 更改 UAC 用户账户控制 设置 -> 启动设置
 4. 将通知杆往下拉,修改为从不通知,点击确定
 
@@ -348,7 +347,7 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 
 6. 停用系统除了 Administrator 管理员账户以外的所有账户:
 
-   使用管理员模式打开 CMD - 输入 `net user 你的账户名 /active:no  `,将 `你的账户名` 修改为你系统所使用的账户名,有几个账户名执行几次改命令
+   使用管理员模式打开 CMD - 输入 `net user 你的账户名 /active:no`,将 `你的账户名` 修改为你系统所使用的账户名,有几个账户名执行几次改命令
 
    执行完命令后从 `Windows 设置`   - `账户` - `家庭和其他用户` 中查看是否完全停用
 
@@ -358,8 +357,8 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 
 8. 执行 cmd 命令
 
-   ```
-   sysprep /oobe /reboot /unattend:D:\relocate.xml 
+   ```bash
+   sysprep /oobe /reboot /unattend:D:\relocate.xml
    ```
 
    其中 unattend 命令后的内容为第一步所保存的 xml 文件的绝对路径,根据自己的存储位置修改即可
@@ -380,7 +379,7 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 
 13. 在 Windows 设置 中删除你在第 9 步所设置的临时账户
 
-    参考教程 https://www.tenforums.com/tutorials/1964-move-users-folder-location-windows-10-a.html
+    参考教程 <https://www.tenforums.com/tutorials/1964-move-users-folder-location-windows-10-a.html>
 
 ### 删除文件资源管理器中左侧菜单栏的此电脑下的 3D 对象等文件夹
 
@@ -439,15 +438,13 @@ USUB4-4FAD6-UTD9Q-2D8H4-42DZA
 
 ### 如何优化 Windows 的性能
 
-https://www.tenforums.com/tutorials/26120-optimize-performance-windows-10-a.html
-
-
+<https://www.tenforums.com/tutorials/26120-optimize-performance-windows-10-a.html>
 
 ## 软件推荐
 
 ### 输入法
 
-##### 输入法方案推荐：
+#### 输入法方案推荐
 
 进行中文输入推荐使用双拼输入法，熟练使用后可以极大提高输入效率
 
@@ -457,13 +454,13 @@ https://www.tenforums.com/tutorials/26120-optimize-performance-windows-10-a.html
 
 学习双拼第一周可以背一下键位表，忘记的键位尽量先回想，回想不起来再去看键位图。
 
-一周过后基本可以熟练使用双拼，一个月后基本已经变成肌肉记忆，不用再去想键位分布就可马上打出来。	
+一周过后基本可以熟练使用双拼，一个月后基本已经变成肌肉记忆，不用再去想键位分布就可马上打出来。
 
 #### Rime 输入法
 
-首选的开源输入法。但是配置较为繁琐，且软件是繁体中文，设置起来相对不是很舒服。软件的配置可以使用 github 上一些配置好的直接导入即可。可以根据需要自己去研究官方的配置文件 
+首选的开源输入法。但是配置较为繁琐，且软件是繁体中文，设置起来相对不是很舒服。软件的配置可以使用 github 上一些配置好的直接导入即可。可以根据需要自己去研究官方的配置文件
 
-官网地址：https://rime.im/
+官网地址：<https://rime.im/>
 
 Rime 是跨平台的輸入法軟件，Rime 輸入方案可通用於以下發行版：
 
@@ -471,7 +468,7 @@ Rime 是跨平台的輸入法軟件，Rime 輸入方案可通用於以下發行�
 - 【小狼毫】 Weasel → Windows
 - 【鼠鬚管】 Squirrel → Mac OS X
 
-Rime 的各种配置，均是由 .yaml 文件所定义。 yaml 是一种标记语言。 .yaml 文件实际上是文本文档。可使用记事本、或 Emeditor 等进行编辑 
+Rime 的各种配置，均是由 .yaml 文件所定义。 yaml 是一种标记语言。 .yaml 文件实际上是文本文档。可使用记事本、或 Emeditor 等进行编辑
 
 ##### 文件夹
 
@@ -510,19 +507,15 @@ Rime 的各种配置，均是由 .yaml 文件所定义。 yaml 是一种标记�
 
 方案定义，命名为 `<方案定义>.schema.yaml`，是一份包含输入方案配置信息的 YAML 文档。
 
-#####  共享文件夹
+##### 共享文件夹
 
 存放由本机多个用户共享的文件，通常由输入法安装程序写入。
 
 Rime 输入法在查找一项资源的時候，会优先访问 [用户文件夹](https://github.com/rime/home/wiki/UserData) 中的文件。 用户文件不存在时，再到共享文件夾中寻找。
 
-
-
 之前使用其他输入法的同学可以使用深蓝词库转换输出原输入法导出的词库
 
-深蓝词库下载地址：https://github.com/studyzy/imewlconverter/releases
-
-
+深蓝词库下载地址：<https://github.com/studyzy/imewlconverter/releases>
 
 #### 系统自带的输入法
 
@@ -555,7 +548,7 @@ Mac 与 Windows （微软拼音）都有自带的输入法，安卓手机上可�
 
 - Clash（ PC 端全平台，Mac 上是 ClashX）
 
-  网址：https://github.com/Dreamacro/clash.git
+  网址：<https://github.com/Dreamacro/clash.git>
 
 - Shadowrocket（ iOS 外区应用商店可购买下载）
 
@@ -567,25 +560,25 @@ Windows 平台安装
 
 1. 下载安装镜像
 
-   - https://msdn.itelleyou.com
+   - <https://msdn.itelleyou.com>
    - 需要下载 VL 版本的 Office
 
 2. 根据提示安装软件
 
 3. 打开管理员模式下的命令行
 
-   ```
+   ```markdown
    跳转到软件的安装文件夹
    32位执行如下命令:
    cd "C:\Program Files (x86)\Microsoft Office\Office16"
-   
+
    64位执行如下命令:
    cd "C:\Program Files\Microsoft Office\Office16
    ```
 
 4. 进入文件夹后执行以下两个命令，期间电脑需要联网
 
-   ```
+   ```markdown
    cscript ospp.vbs /sethst:win.kms.pub
    cscript ospp.vbs /act
    ```
@@ -600,7 +593,7 @@ Windows 平台安装
 
 序列码
 
-```
+```markdown
 VM 16.1.1 build-17801498:
 ZF3R0-FHED2-M80TY-8QYGC-NPKYF
 YF390-0HF8P-M81RQ-2DXQE-M2UT6
@@ -625,7 +618,7 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 
    - 下载补丁文件：
 
-   ```
+   ```bash
    git clone git@github.com:BDisp/unlocker.git
    ```
 
@@ -637,7 +630,7 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 
    - 在该文件的最后一行添加以下代码，并保存文件
 
-     ```
+     ```bash
      smc.version = 0
      ```
 
@@ -656,7 +649,7 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 
    进入这个网址，找到最新的 darwin.iso 并下载
 
-   http://softwareupdate.vmware.com/cds/vmw-desktop/fusion/
+   <http://softwareupdate.vmware.com/cds/vmw-desktop/fusion/>
 
    - 关闭 Mac 虚拟机
    - 设置 - CD/DVD（sata） - 连接 - 使用 iso 镜像，导入下载的 darwin.iso
@@ -679,9 +672,9 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 
   [@Vposy](https://weibo.com/vposy) 在新浪微博上更新他的破解版，可以根据需要下载
 
-  网址：https://weibo.com/vposy
+  网址：<https://weibo.com/vposy>
 
-  百度网盘下载链接：https://pan.baidu.com/s/1Z4_iJNcq7koRt3vN7KxB3w?pwd=6g8x#list/path=%2F
+  百度网盘下载链接：<https://pan.baidu.com/s/1Z4_iJNcq7koRt3vN7KxB3w?pwd=6g8x#list/path=%2F>
 
   百度网盘密码为：6g8x。默认解压缩密码为：@vposy
 
@@ -706,7 +699,7 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 
 - Telegram（功能强大，不只是通讯软件，但是此软件只能进行私聊的加密）
 
-  使用技巧可参考这篇文章：https://tingtalk.me/telegram/
+  使用技巧可参考这篇文章：<https://tingtalk.me/telegram/>
 
 - Singal（全开源，更强大的加密通讯软件）
 
@@ -721,13 +714,13 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 
 #### RSS 源
 
-- RSS Hub（可以给各种网站生成 RSS）：https://docs.rsshub.app/
-- 中文博客列表推荐：https://github.com/timqian/chinese-independent-blogs.git
+- RSS Hub（可以给各种网站生成 RSS）：<https://docs.rsshub.app/>
+- 中文博客列表推荐：<https://github.com/timqian/chinese-independent-blogs.git>
 
 ### 邮箱客户端
 
 - Spark（Apple 全平台，交互更优雅）
-- Thunderbird（全平台，Mozilla 社区的作品）：https://www.thunderbird.net/
+- Thunderbird（全平台，Mozilla 社区的作品）：<https://www.thunderbird.net/>
 
 ### 翻译软件
 
@@ -744,7 +737,7 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 - BT Sync / Resilio Sync适用于广播式同步，一人发，多人收
 - rsync 跨硬盘备份工具，适用于一个人多台机器
 
-网址： www.getsync.com
+网址： <www.getsync.com>
 
 ### 视频播放器
 
@@ -775,7 +768,7 @@ MacOS 系统在虚拟机上使用并不稳定，不推荐在虚拟机上安装�
 
 ### 磁盘空间分析
 
-- WizTree：https://diskanalyzer.com/
+- WizTree：<https://diskanalyzer.com/>
 - SpaceSniffer
 
 ### 屏幕截图
@@ -810,7 +803,7 @@ Google 搜索通常会根据“发起搜索的 IP 地址”来进行“国别重
 
 另外大部分人都有过网盘资料被删除的经历，服务提供商可以查看你的网盘文件并且决定是否删除。可以上传一些H图片或者视频到网盘上过几天看看还能否访问。但是网盘在我们的生活中又不可或缺。
 
-#### 解决方法：
+#### 解决方法
 
 网盘 + 加密盘
 
@@ -818,9 +811,7 @@ Google 搜索通常会根据“发起搜索的 IP 地址”来进行“国别重
 
 #### 加密软件：VeraCrypt
 
-下载地址：https://veracrypt.fr/en/Home.html
-
-
+下载地址：<https://veracrypt.fr/en/Home.html>
 
 ## 快捷键
 
@@ -847,13 +838,11 @@ MacOS 系统快捷键
   2. 打开属性窗口，选择 －＞ 常规 －＞ 属性 －＞ 隐藏 －> 确定
   3. 取消隐藏：文件夹菜单栏－＞查看－＞隐藏的项目
 
-隐私与安全
+### 隐私与安全
 
-### 软件推荐 
+棱镜粉碎网站: <https://prism-break.org/>
 
-棱镜粉碎网站: https://prism-break.org/
-
-**如果你很在意安全性，就【不要】基于移动设备（手机、平板）进行各种【敏感操作】**
+如果你很在意安全性，就【不要】基于移动设备（手机、平板）进行各种【敏感操作】
 
 ### 操作系统的选择
 
@@ -863,7 +852,7 @@ Linux > MacOS > Windows
 
 使用 **Startpage** 或者 **DuckDuckGo** 代替谷歌或其他搜索引擎
 
-##### 设置为HTTPS?
+#### 设置为HTTPS?
 
 > 互联网技术人员一直都知道 HTTP 是不安全的，给用户带来很多风险。由于 HTTP 流量是未加密的，任何通过 HTTP 发送的数据都可以被任何有权访问网络的人读取和修改。正如斯诺登 NSA 监控文件所揭示的那样，政府机构也可以在不通知用户或网站管理员的情况下收集和搜索 HTTP 流量。鉴于这些风险，EFF 认为每个网站都应该尽快在所有页面上[支持 HTTPS 。](https://www.eff.org/encrypt-the-web)
 
@@ -877,39 +866,33 @@ Linux > MacOS > Windows
 
 “TOR”传说中的暗网，是老牌的翻墙工具，并且是“开源项目”。它的主要用途是“隐匿身份”，翻墙只是顺带的附加用途。
 
-官方网站是 https://www.torproject.org/
-（必须翻墙才能访问,注意进入的网址。直接搜索得到的是蜜罐网站,无法翻墙） 
+官方网站是 <https://www.torproject.org/>
+（必须翻墙才能访问,注意进入的网址。直接搜索得到的是蜜罐网站,无法翻墙）
 
-###### 如何判断自己的浏览器是否在走 Tor 的线路？
+#### 如何判断自己的浏览器是否在走 Tor 的线路？
 
-　　Tor 官网提供了一个测试界面，网址是 https://check.torproject.org/ 猛击该超链接，会打开一个界面。
+　　Tor 官网提供了一个测试界面，网址是 <https://check.torproject.org/> 猛击该超链接，会打开一个界面。
 　　如果你的浏览器已经在使用 Tor 的线路，会出现一个【绿色】洋葱头，以及一行绿色的洋文提示。
 　　如果你的浏览器没有走 Tor 的线路，会出现一个【带红色打叉】的洋葱头，同时还有一行红色的洋文警告。
 
 ## 隐私安全观念普及
 
-##### EFF(ELECTRONIC FRONTIER FOUNDATION)
+### EFF(ELECTRONIC FRONTIER FOUNDATION)
 
 捍卫数字隐私、言论自由和创新的领先非营利组织。
 
-网址: www.eff.org
-
-
+网址: <www.eff.org>
 
 ## 实用的网站
 
-www.52pj.com：分享一些安全技术，破解软件等
+<www.52pj.com：分享一些安全技术，破解软件等>
 
-
-
-##### 参考链接：
+### 参考链接
 
 Win10 使用技巧论坛：www.tenforums.com
 
 StackOverFlow旗下的电脑使用论坛：www.superuser.com
 
-庭说的装机指南：https://tingtalk.me/windows/
+庭说的装机指南：<https://tingtalk.me/windows/>
 
-
-
-Last updated on January 10,2023 
+Last updated on January 10,2023
