@@ -36,9 +36,26 @@ export default defineConfig({
           "border-radius": "8px",
           "box-shadow": "0 2px 4px #efefef",
         },
-        a: {
-          color: "rgb(129,140,248)",
+        'a': {
+          'text-decoration': 'none',
+          'white-space': 'nowrap',
+          'color': '#121314',
+          'position': 'relative',
         },
+        "a:after": {
+          "content": "''",
+          "position": "absolute",
+          "z-index": "-1",
+          "top": "80%",
+          "left": "-0.1em",
+          "right": "-0.1em",
+          "bottom": "0",
+          "transition": "top 200ms cubic-bezier(0, 0.8, 0.13, 1)",
+          "background-color": "rgba(129, 140, 248, 0.5)"
+        },
+        "a:hover:after": {
+          "top": "0%"
+        }
       },
     }),
   ],
