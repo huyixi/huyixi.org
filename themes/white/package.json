@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "uno-dev": "unocss \"layouts/**/**/*.html\" --watch -o ./assets/css/uno.css",
-    "uno-build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css"
+    "dev": "unocss \"layouts/**/*.html\" --watch -o ./assets/css/uno.css",
+    "build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css"
   },
   "keywords": [],
   "author": "",

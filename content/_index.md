@@ -14,8 +14,8 @@
 
 👀看看我最近在做什么：  
 💼 正在找工作……    
-💻 正在学习：Rust、SwiftUI、Swift  
-🤩最近在追：[坂本 龍一](https://en.wikipedia.org/wiki/Ryuichi_Sakamoto)、[Owen](https://www.owenyoung.com)、[枫影 Justin Yan](https://justinyan.me)  
+💻 正在学习：English, Rust, SwiftUI, Swift  
+🤩最近在追：Antfu, Evan You
 📖 最近在读：《深入理解计算机系统》、《Staring at the Sun》、《可能性的艺术》 - 刘瑜  
 🎵 最近在听：《Born to Die》 - Lana Del Rey、坂本龙一、BADBADNOTGOOD  
 🔎 正在研究：Rust, Swift, crawlee, Astro, uniapp, uview, stylus    

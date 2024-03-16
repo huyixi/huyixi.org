@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "hugo server -D",
-    "white-theme-dev": "cd themes/white && npm run uno-dev",
-    "d": "concurrently \"~/i/utils/hugo-server.sh\" \"pnpm run white-theme-dev\""
+    "server": "hugo server -D",
+    "white-theme-dev": "cd themes/white && pnpm run dev",
+    "dev": "concurrently \"~/i/utils/hugo-server.sh\" \"pnpm run white-theme-dev\""
+  },
+  "devDependencies": {
+    "@unocss/cli": "^0.58.2",
+    "@unocss/preset-attributify": "^0.58.3",
+    "@unocss/preset-typography": "^0.58.3",
+    "@unocss/preset-uno": "^0.58.3",
+    "@unocss/preset-wind": "^0.58.3"
   },
   "keywords": [],
   "author": "",
