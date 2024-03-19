@@ -17,9 +17,9 @@
 👀看看我最近在做什么：  
 💼 正在找工作……    
 💻 正在学习：English, Rust, SwiftUI, Swift  
-🤩最近在追：Antfu, Evan You
-📖 [最近在读](https://huyixi.wiki/log)：《左耳听风-传奇程序员练级攻略》
-🎵 最近在听：《Born to Die》 - Lana Del Rey、坂本龙一、BADBADNOTGOOD  
+🤩最近在追：Antfu, Chen Hao  
+📖 [最近在读](https://huyixi.wiki/log)：《左耳听风-传奇程序员练级攻略》  
+🎵 最近在听：《Born to Die》 - Lana Del Rey、坂本龙一、BADBADNOTGOOD   
 🔎 正在研究：Rust, Swift, crawlee, Astro, uniapp, uview, stylus    
 
 ## Contact
