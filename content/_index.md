@@ -18,7 +18,7 @@
 💼 正在找工作……    
 💻 正在学习：English, Rust, SwiftUI, Swift  
 🤩最近在追：Antfu, Evan You
-📖 最近在读：《深入理解计算机系统》、《Staring at the Sun》、《可能性的艺术》 - 刘瑜  
+📖 [最近在读](https://huyixi.wiki/log)：《左耳听风-传奇程序员练级攻略》
 🎵 最近在听：《Born to Die》 - Lana Del Rey、坂本龙一、BADBADNOTGOOD  
 🔎 正在研究：Rust, Swift, crawlee, Astro, uniapp, uview, stylus    
 
@@ -26,5 +26,5 @@
 
 欢迎与我联系  
 📮 Email: [hi@huyixi.com](mailto:hi@huyixi.com)  
-🧑‍💻 我的 [GitHub](github.com/huyixi)  
+🧑‍💻 我的 [GitHub](https://github.com/huyixi)  
 📰 通过 [RSS](/index.xml) 订阅这个博客
